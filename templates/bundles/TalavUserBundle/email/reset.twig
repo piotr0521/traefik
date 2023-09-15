@@ -1,0 +1,132 @@
+{% block subject %}
+    {%- autoescape false -%}
+        Reset Password
+    {%- endautoescape -%}
+{% endblock %}
+
+{% block body_text %}
+    {% autoescape false %}
+        {% include 'common/email/header.txt.twig' %}
+        Reset Your Password
+        Hi {{user.username}}, you requested a password reset. Please visit this link to enter your new password:
+        {{confirmationUrl}}
+        If you did not make this request or believe this is an error, please reach out to us.
+        Regards,
+        The Team.
+        If you have any questions or comments, feel free to reply to the email and our team will get in touch.
+        {% include 'common/email/footer.txt.twig' %}
+    {% endautoescape %}
+{% endblock %}
+
+{% block body_html %}
+    {% autoescape false %}
+        <html lang="en">
+            <head>
+                <title>Reset Password</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            </head>
+            <body>
+                <div class="main" style="background-color: #FBFCFE;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FBFCFE; width: 100%;" width="100%" bgcolor="#FBFCFE">
+                        <tr>
+                            <td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top;" valign="top">&nbsp;</td>
+                            <td class="container" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top; display: block; max-width: 580px; padding: 10px; width: 580px; margin: 0 auto;" width="580" valign="top">
+                                <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 580px; padding: 10px;">
+
+                                    <!-- START HEADER -->
+                                    {% include 'common/email/header.html.twig' %}
+                                    <!-- END HEADER -->
+
+                                    <!-- START CENTERED WHITE CONTAINER -->
+                                    <table role="presentation" class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #ffffff; border-radius: 8px; width: 100%; border: 1px solid #EFF6FF; box-shadow: 0px 0px 45px #EFF6FF; position: relative;" width="100%">
+
+                                        <!-- START MAIN CONTENT AREA -->
+                                        <tr>
+                                            <td class="wrapper" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top; box-sizing: border-box; padding: 40px;" valign="top">
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                                                    <tr>
+                                                        <td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top;" valign="top">
+                                                            <h1 style="font-family: Helvetica, Arial, sans-serif; margin: 0; margin-bottom: 30px; color: #312E81; font-size: 30px; font-weight: 600;">Reset Your Password</h1>
+                                                            <p style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 30px; color: #0F172A; line-height: 1.4;">
+                                                                Hi <b>{{user.username}}</b>, you requested a password reset. Please visit this link to enter your new password:
+                                                            </p>
+                                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; box-sizing: border-box; width: 100%;" width="100%">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top; padding-bottom: 30px;" valign="top">
+                                                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                                                                            <tbody>
+                                                                            <tr>
+                                                                                <td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top; border-radius: 5px; text-align: center; background-color: #1D4ED8;" valign="top" align="center" bgcolor="#3498db">
+                                                                                    <a href="{{confirmationUrl}}" target="_blank" style="border: solid 1px #1D4ED8; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 16px; font-weight: 400; margin: 0; padding: 14px 25px; text-decoration: none; text-transform: capitalize; background-color: #1D4ED8; border-color: #1D4ED8; color: #ffffff;">
+                                                                                        Reset Password
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 30px; color: #0F172A; line-height: 1.4;">
+                                                                If you did not make this request or believe this is an error, please reach out to us.
+                                                            </p>
+                                                            <br>
+                                                            <p style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 30px; color: #0F172A; line-height: 1.4;">
+                                                                Regards,
+                                                                <br>
+                                                                The Teams
+                                                            </p>
+                                                            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 10px;">
+                                                                <tr>
+                                                                    <td style="border-top: 1px solid #f1f5f9;">&nbsp;</td>
+                                                                </tr>
+                                                            </table>
+                                                            <p style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px; line-height: 1.4; color: #94a3b8;">
+                                                                If you have any questions or comments, feel free to reply to the email and our team will get in touch.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                                                    <tr>
+                                                        <td valign="top" align="center">
+                                                            <img style="position: absolute; left: -99px; bottom: 10%; width: 99px;" src="{{ absolute_url(asset('/images/form/bg-form-left.svg')) }}" alt="dots left">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                                                    <tr>
+                                                        <td valign="top" align="center">
+                                                            <img style="position: absolute; right: -112px; top: 10%; width: 112px;" src="{{ absolute_url(asset('/images/form/bg-form-right-small.svg')) }}" alt="dots right">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- END MAIN CONTENT AREA -->
+
+                                    </table>
+                                    <!-- END CENTERED WHITE CONTAINER -->
+
+                                    <!-- START FOOTER -->
+                                    {% include 'common/email/footer.html.twig' %}
+                                    <!-- END FOOTER -->
+
+                                </div>
+                            </td>
+                            <td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: top;" valign="top">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </html>
+    {% endautoescape %}
+{% endblock %}

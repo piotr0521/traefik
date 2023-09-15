@@ -1,0 +1,28 @@
+@import "swiper/swiper-bundle.css";
+@import "aos/dist/aos.css";
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./components/components.css";
+
+@import "tailwindcss/utilities";
+
+@import "v-calendar/dist/style.css";
+@import "vue-select/dist/vue-select.css";
+@import "vue-toast-notification/dist/theme-default.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* vSelect */
+  --vs-actions-padding: 15px;
+
+  /* swiper */
+  --swiper-theme-color: #3b82f6;
+  --swiper-pagination-bullet-inactive-color: #bfdbfe;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 9px;
+}

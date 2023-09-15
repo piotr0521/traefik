@@ -1,0 +1,50 @@
+/* custom style vue-toast-notification package */
+.v-toast {
+  .v-toast__item {
+    @apply opacity-100;
+
+    &--success {
+      background-color: #bdebd3;
+
+      .v-toast__text {
+        color: #81b697;
+
+        &:after {
+          content: url("./../../public/images/icon/close-success.svg");
+        }
+      }
+    }
+
+    &--warning {
+      background-color: #f4f2d4;
+
+      .v-toast__text {
+        color: #afaf99;
+
+        &:after {
+          content: url("./../../public/images/icon/close-warning.svg");
+        }
+      }
+    }
+
+    &--error {
+      background-color: #fbc5c6;
+
+      .v-toast__text {
+        color: #c38989;
+
+        &:after {
+          content: url("./../../public/images/icon/close-error.svg");
+        }
+      }
+    }
+
+    .v-toast__text {
+      @apply pl-5 pr-16 relative;
+
+      &:after {
+        @apply absolute right-2 top-1/2 -translate-y-1/2 inline-block leading-[0];
+      }
+    }
+  }
+}

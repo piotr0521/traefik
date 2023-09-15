@@ -1,0 +1,11 @@
+{
+  "VALUE_UPDATE": "Value update",
+  "BALANCE_UPDATE": "Balance update",
+  "DISTRIBUTION": "Cash distribution",
+  "REINVEST": "Reinvest cash distribution",
+  "CONTRIBUTION": "Cash contribution",
+  "COMPLETE": "Final distribution",
+  "DEPOSIT": "Deposit",
+  "INTEREST": "Interest",
+  "WITHDRAW": "Withdrawal"
+}

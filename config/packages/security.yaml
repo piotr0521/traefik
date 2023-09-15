@@ -1,0 +1,62 @@
+security:
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        user_provider:
+            id: talav.user.provider.oath
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            entry_point: form_login
+            form_login:
+                login_path: talav_user_login
+                check_path: talav_user_login
+                enable_csrf: true
+                default_target_path: /user/dashboard
+            logout:
+                path: talav_user_logout
+                target: talav_user_login
+            remember_me:
+                secret:   '%kernel.secret%'
+                lifetime: 2592000
+            oauth:
+                resource_owners:
+                    facebook: "/social-login/check-facebook"
+                ## Provide the original login path of your application
+                ## and the failure route when the authentication fails.
+                login_path:     /login
+                failure_path:   /login
+                oauth_user_provider:
+                    service: talav.user.provider.oath
+    password_hashers:
+        Talav\UserBundle\Entity\User:
+            algorithm: auto
+    role_hierarchy:
+        ROLE_ADMIN: ['ROLE_CUSTOMER', 'ROLE_SPONSOR_EDITOR', 'ROLE_INSTITUTION_EDITOR']
+        ROLE_SPONSOR_EDITOR: ['ROLE_CUSTOMER']
+        ROLE_INSTITUTION_EDITOR: ['ROLE_CUSTOMER']
+        ROLE_CUSTOMER: ['ROLE_USER', 'IS_AUTHENTICATED_FULLY']
+    # Easy way to control access for large sections of your site
+    # Note: Only the *first* access control that matches will be used
+    access_control:
+        - { path: ^/login$, roles: PUBLIC_ACCESS }
+        - { path: ^/integration, roles: PUBLIC_ACCESS }
+        - { path: ^/checkout, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/user/, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/prices, roles: ROLE_USER }
+        - { path: ^/api/subscriptions, roles: ROLE_USER }
+        - { path: ^/api, roles: ROLE_CUSTOMER }
+
+when@test:
+    security:
+        password_hashers:
+            # By default, password hashers are resource intensive and take time. This is
+            # important to generate secure password hashes. In tests however, secure hashes
+            # are not important, waste resources and increase test times. The following
+            # reduces the work factor to the lowest possible values.
+            Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface:
+                algorithm: auto
+                cost: 4 # Lowest possible value for bcrypt
+                time_cost: 3 # Lowest possible value for argon
+                memory_cost: 10 # Lowest possible value for argon

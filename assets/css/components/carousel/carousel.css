@@ -1,0 +1,10 @@
+/* review carousel */
+.review-carousel.swiper {
+  @apply pb-16;
+}
+
+/* make active pagination dots more large */
+.swiper-pagination-bullet-active {
+  @apply relative h-2.5 w-2.5;
+  top: 1px;
+}

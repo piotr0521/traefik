@@ -1,0 +1,52 @@
+.menu-mobile {
+  @apply fixed top-0 right-0 w-10/12 sm:w-8/12 md:w-5/12 h-screen z-50 bg-white shadow-md py-4 sm:py-6 transition-transform duration-300 translate-x-full;
+
+  &.is-open {
+    @apply translate-x-0;
+  }
+
+  li {
+    &.current {
+      @apply relative;
+
+      a {
+        @apply text-blue-500;
+
+        &:before {
+          content: "";
+          width: 3px;
+          @apply bg-blue-500 absolute -top-px -left-4 sm:-left-10 h-8;
+        }
+      }
+    }
+
+    a {
+      @apply inline-flex text-indigo-900 text-lg font-medium mb-5;
+    }
+  }
+}
+
+.main-menu {
+  li {
+    @apply inline-block mx-4;
+
+    &.current {
+      a {
+        &:after {
+          content: "";
+          bottom: -1.813rem;
+          height: 3px;
+          @apply w-full bg-blue-500 absolute left-0;
+        }
+      }
+    }
+  }
+
+  a {
+    @apply block text-indigo-900 text-base md:text-xl font-light relative px-2 transition-colors;
+
+    &:hover {
+      @apply text-blue-500;
+    }
+  }
+}

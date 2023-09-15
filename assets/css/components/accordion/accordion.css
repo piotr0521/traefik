@@ -1,0 +1,31 @@
+.accordion {
+  &-item {
+    @apply bg-white py-3 md:py-6 px-4 md:px-8 mb-5 shadow-cardReview border border-blue-50 rounded-lg;
+
+    &.is-active {
+      .accordion-title {
+        &:after {
+          content: url("./../../public/images/icon/minus.svg");
+          @apply -top-1.5;
+        }
+      }
+
+      .accordion-content {
+        @apply block pt-6;
+      }
+    }
+  }
+
+  &-title {
+    @apply text-indigo-900 text-base md:text-lg md:text-xl font-normal cursor-pointer relative w-full leading-tight pr-8;
+
+    &:after {
+      content: url("./../../public/images/icon/plus.svg");
+      @apply absolute -top-1 md:top-0 right-0 scale-50 md:scale-100;
+    }
+  }
+
+  &-content {
+    @apply hidden md:w-4/5;
+  }
+}

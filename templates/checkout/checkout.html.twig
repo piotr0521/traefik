@@ -1,0 +1,14 @@
+{% block title %}
+    Checkout | Groshy.io
+{% endblock %}
+{% extends 'common/base.html.twig' %}
+{% block body %}
+    <div id="checkout-app"></div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('checkout-app') }}
+{% endblock %}
+
+

@@ -1,0 +1,84 @@
+# This file is the entry point to configure your own services.
+# Files in the packages/ subdirectory configure your dependencies.
+
+# Put parameters here that don't need to change on each machine where the app is deployed
+# https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
+parameters:
+    alpha_vantage.api_key: '%env(resolve:ALPHA_VANTAGE_KEY)%'
+    coin_market_cap.token: '%env(resolve:COIN_MARKET_CAP_TOKEN)%'
+    plaid.client_id: '%env(resolve:PLAID_CLIENT_ID)%'
+    plaid.secret: '%env(resolve:PLAID_SECRET)%'
+    plaid.env: '%env(resolve:PLAID_ENV)%'
+    stripe.api_key: '%env(resolve:STRIPE_SECRET)%'
+    stripe.webhook_secret: '%env(resolve:STRIPE_WEBHOOK_SECRET)%'
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    # makes classes in src/ available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    Groshy\:
+        resource: '../src/'
+        exclude:
+            - '../src/Config/'
+            - '../src/Presentation/Web/Controller/'
+            - '../src/Infrastructure/Persistence/DoctrineRepository/'
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+
+    # controllers are imported separately to make sure services can be injected
+    # as action arguments even if you don't extend any base controller class
+    Groshy\Presentation\Api\Action\:
+        resource: '../src/Presentation/Api/Action'
+        tags: ['controller.service_arguments']
+    Groshy\Presentation\Web\Controller\:
+        resource: '../src/Presentation/Web/Controller'
+        tags: ['controller.service_arguments']
+    Groshy\Message\CommandHandler\CreateResourceHandler:
+        $managerRegistry: '@talav.registry.manager'
+    Groshy\Message\CommandHandler\UpdateResourceHandler:
+        $managerRegistry: '@talav.registry.manager'
+    Groshy\Message\CommandHandler\Position\DeletePositionHandler:
+        $managerRegistry: '@talav.registry.manager'
+    Groshy\Application\Manager\PositionNormalizer:
+        $managerRegistry: '@talav.registry.manager'
+    AutoMapperPlus\AutoMapperPlusBundle\PropertyAccessor\SymfonyPropertyAccessorBridge:
+        arguments:
+            $propertyAccessor: '@property_accessor'
+    AlphaVantage\Client:
+        factory: '@Groshy\Infrastructure\External\AlphaVantage\AlphaVantageClientFactory'
+        arguments:
+            $key: '%alpha_vantage.api_key%'
+        class: AlphaVantage\Client
+        public: true
+    CoinMarketCap\Api:
+        factory: '@Groshy\Infrastructure\External\CoinMarketCap\ClientFactory'
+        arguments:
+            $key: '%coin_market_cap.token%'
+        class: coinmarketcap\Api
+        public: true
+    TomorrowIdeas\Plaid\Plaid:
+        factory: '@Groshy\Infrastructure\External\Plaid\PlaidFactory'
+        arguments:
+            $clientId: '%plaid.client_id%'
+            $secret: '%plaid.secret%'
+            $env: '%plaid.env%'
+        class: TomorrowIdeas\Plaid\Plaid
+        public: true
+    Stripe\StripeClient:
+        factory: '@Groshy\Infrastructure\External\Stripe\StripeClientFactory'
+        arguments:
+            $key: '%stripe.api_key%'
+        class: Stripe\StripeClient
+        public: true
+    Groshy\Presentation\Api\Serializer\Normalizer\PermissionNormalizer:
+        # By default .inner is passed as argument
+        decorates: 'api_platform.jsonld.normalizer.item'
+    Groshy\Menu\MenuBuilder:
+        class: Groshy\Menu\MenuBuilder
+        arguments: ["@knp_menu.factory"]
+        tags:
+            - { name: knp_menu.menu_builder, method: createMainMenu, alias: main_menu }

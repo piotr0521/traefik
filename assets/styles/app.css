@@ -1,0 +1,55 @@
+body {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 300;
+}
+ul li::marker {
+  color: #bfdbfe;
+}
+ol li::marker {
+  color: #312e81;
+}
+.terms-group,
+.custom-sublist,
+.list-latin {
+  counter-reset: item 0;
+}
+.custom-sublist li {
+  display: table;
+  margin-top: 15px;
+}
+.custom-list ol {
+  margin-left: -2.75rem;
+}
+.custom-list-item {
+  display: table;
+}
+.custom-list > li:first-child:before {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.custom-list li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  display: table-cell;
+  text-align: right;
+  width: 50px;
+  padding-right: 15px;
+  color: #312e81;
+}
+.list-latin {
+  padding-left: 20px;
+}
+.list-latin li::before {
+  content: counter(item, lower-alpha) ". ";
+}
+.privacy-policy section:nth-child(odd),
+.terms-of-use > section,
+.terms-of-use section:nth-child(even) {
+  background-color: #fbfcfe;
+  color: #0f172a;
+}
+
+.privacy-policy section,
+.terms-of-use section {
+  border-bottom: 1px solid #eff6ff;
+}

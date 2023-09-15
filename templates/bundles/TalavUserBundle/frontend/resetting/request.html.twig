@@ -1,0 +1,47 @@
+{% extends '@TalavUser/layout.html.twig' %}
+
+{% trans_default_domain 'TalavUserBundle' %}
+
+{% block talav_user_content %}
+
+    <h1 class="font-medium text-5xl text-indigo-900 text-center leading-tight mb-3">Reset Password</h1>
+    <p class="text-xl text-indigo-900 text-center max-w-[522px] mx-auto mb-12">
+        Enter your email address and we’ll send you an email with instructions to reset your password
+    </p>
+
+    {% if app.request.hasPreviousSession %}
+        {% for type, messages in app.session.flashbag.all() %}
+            {% for message in messages %}
+                <div class="flash-{{ type }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+
+    {{ form_start(form, {'method': 'post', 'action': path('talav_user_reset_request'), 'attr': {'class': 'form'}}) }}
+
+    <div class="form-row">
+        {{ form_label(form.user, 'Email', {'label_attr': {'class': 'form-label'}})}}
+        {{ form_widget(form.user, {'attr': {'class': "form-input", 'placeholder': 'you@example.com'}})}}
+        {% if not form.user.vars.valid %}
+            <div class="form-error">
+            {{ form_errors(form.user) }}
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="text-center mt-7">
+        <input class="btn btn-primary" type="submit" formnovalidate value="Reset" />
+    </div>
+
+    <div class="text-center">
+        <span class="text-indigo-900">Don’t have an account?</span>
+        <a href="{{ path('talav_user_register') }}" class="text-blue-700 hover:underline">
+            Click here to sign up
+        </a>
+    </div>
+
+    {{ form_end(form) }}
+
+{% endblock talav_user_content %}

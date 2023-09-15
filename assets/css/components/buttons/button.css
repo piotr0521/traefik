@@ -1,0 +1,98 @@
+.btn {
+  @apply font-normal text-xl rounded-md py-3 px-16 transition-colors box-border text-center;
+  &:disabled {
+    @apply pointer-events-none cursor-default bg-gray-300 !important;
+  }
+}
+
+.btn-primary {
+  @apply text-white bg-blue-700  hover:bg-blue-500 hover:shadow-[0px_4px_20px_rgba(59,130,246,0.35)] active:bg-blue-600;
+}
+
+.btn-cancel {
+  @apply text-blue-700 bg-white hover:bg-blue-500 hover:border-blue-500 hover:text-white hover:shadow-[0px_4px_20px_rgba(59,130,246,0.35)] active:bg-blue-600 active:border-blue-600 border-blue-700 border-2 disabled:border-0;
+}
+
+.btn-dashboard,
+.btn-sidebar {
+  @apply flex items-center text-sm text-indigo-900  active:text-white active:bg-blue-700 py-3 px-4 rounded-md;
+
+  &.router-link-active,
+  &.active {
+    @apply text-white bg-blue-700;
+  }
+}
+.btn-dashboard {
+  background-color: #eff6ff;
+  @apply hover:text-white hover:bg-blue-500 hover:shadow-[0px_4px_20px_rgba(59,130,246,0.35)];
+}
+.btn-sidebar:not(.active, .router-link-active) {
+  @apply hover:bg-blue-50;
+}
+.btn-security {
+  @apply text-base text-blue-700 bg-white hover:bg-blue-600 hover:border-blue-600 hover:text-white hover:shadow-[0px_4px_20px_rgba(59,130,246,0.35)] active:bg-blue-600 active:border-blue-600 border-blue-700 border-2 disabled:border-0 py-1.5 px-10;
+}
+.btn-outline {
+  @apply font-normal py-2.5 text-blue-700 border-2 border-blue-700 hover:opacity-80;
+}
+
+.btn-link {
+  @apply inline-flex px-8 items-center bg-transparent text-base font-normal text-blue-700 hover:opacity-80;
+
+  svg {
+    @apply transition ease-in-out duration-150 ml-3;
+  }
+
+  &:hover {
+    svg {
+      @apply translate-x-2;
+    }
+  }
+}
+
+/* button menubar for header menu mobile */
+.btn-menubar {
+  @apply text-blue-700 w-10 h-10 relative focus:outline-none bg-white xl:hidden;
+
+  &.is-active {
+    .icon-bar {
+      @apply block w-10 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
+
+      span {
+        &:nth-of-type(2) {
+          @apply opacity-0;
+        }
+
+        &:first-child {
+          @apply rotate-45 translate-y-0;
+        }
+
+        &:last-child {
+          @apply -rotate-45 translate-y-0;
+        }
+      }
+    }
+  }
+
+  .icon-bar {
+    @apply block w-10 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
+
+    span {
+      @apply block absolute h-0.5 w-10 bg-current transform transition-all duration-300 ease-in-out;
+
+      &:first-child {
+        @apply -translate-y-3;
+      }
+
+      &:last-child {
+        @apply translate-y-3;
+      }
+    }
+  }
+}
+.btn.btn-cancel-sub {
+  @apply bg-slate-300 text-[#0F172A80] text-base px-7;
+}
+.btn.btn-link {
+  @apply text-base text-blue-700 px-0 py-0 no-underline hover:underline p-1;
+}

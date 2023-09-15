@@ -1,0 +1,15 @@
+{% if faqs is defined  %}
+    <h4 class="text-4xl md:text-5xl text-indigo-900 font-semibold mb-10 text-center xl:text-left">FAQs</h4>
+    <div class="accordion">
+        {% for key, faq in faqs %}
+            <div class="accordion-item {% if key == 0 %} is-active {% endif %}">
+                <div class="accordion-title">
+                    {{ faq['question'] }}
+                </div>
+                <div class="accordion-content">
+                    {{ faq['answer'] | raw }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Groshy.io{% endblock %}</title>
+    {% include 'common/header.html.twig' %}
+</head>
+<body class="bg-bodyBg overflow-x-hidden">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col min-h-screen text justify-between">
+            <div class="pt-10 md:pt-15 text-center">
+                <a href="/" class="inline-block mx-auto">
+                    <img src="{{ asset('/images/logo.svg') }}" alt="logo">
+                </a>
+            </div>
+
+            {% block body %}{% endblock %}
+
+            <div class="text-slate-300 text-sm text-center mb-3">
+                &#169; {{ 'now' | date('Y') }} Groshy.io. All rights reserved
+            </div>
+        </div>
+    </div>
+
+    {% block javascripts %}
+    {% endblock %}
+</body>
+</html>

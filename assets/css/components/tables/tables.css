@@ -1,0 +1,48 @@
+.table-dashboard {
+  @apply border-collapse;
+}
+
+.table-dashboard__th {
+  @apply p-6 bg-blue-50 text-left text-blue-300 border-x-2 border-white font-light;
+}
+
+.table-dashboard__td {
+  @apply border-y border-dashed border-blue-200 p-6;
+}
+
+.table-dashboard .header {
+  @apply grid text-blue-300 gap-[1px] border-b border-dashed border-blue-200;
+}
+
+.table-dashboard .header div {
+  @apply p-6 bg-blue-50;
+}
+
+.table-dashboard .item {
+  @apply grid border-b border-dashed border-blue-200;
+}
+
+.table-dashboard .item div {
+  @apply p-6;
+}
+
+.table-dashboard .item .col {
+  @apply grid grid-cols-2 items-center;
+}
+
+.table-dashboard .item .percent {
+  @apply col-auto xl:col-span-1 flex items-center justify-start;
+}
+
+.table-dashboard .item .percent svg {
+  @apply mr-3;
+}
+
+.table-base {
+  th {
+    @apply py-4;
+  }
+  td {
+    @apply py-3;
+  }
+}

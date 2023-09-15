@@ -1,0 +1,47 @@
+{% extends '@TalavUser/layout.html.twig' %}
+
+{% trans_default_domain 'TalavUserBundle' %}
+
+{% block talav_user_content %}
+
+    <h1 class="font-medium text-5xl text-indigo-900 text-center leading-tight mb-12">Set New Password</h1>
+
+    {% if app.request.hasPreviousSession %}
+        {% for type, messages in app.session.flashbag.all() %}
+            {% for message in messages %}
+                <div class="flash-{{ type }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+
+    {{ form_start(form, { 'action': path('talav_user_reset_password', {'token': token}), 'attr': {'class': 'form'}}) }}
+
+    <div class="form-row">
+        {{ form_label(form.password.first, 'New password', {'label_attr': {'class': 'form-label'}})}}
+        {{ form_widget(form.password.first, {'attr': {'class': "form-input"}})}}
+        {% if not form.password.first.vars.valid %}
+            <div class="form-error">
+            {{ form_errors(form.password.first) }}
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="form-row">
+        {{ form_label(form.password.second, 'Confirm password', {'label_attr': {'class': 'form-label'}})}}
+        {{ form_widget(form.password.second, {'attr': {'class': "form-input"}})}}
+        {% if not form.password.second.vars.valid %}
+            <div class="form-error">
+            {{ form_errors(form.password.second) }}
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="text-center mt-7">
+        <input class="btn btn-primary" type="submit" value="{{ 'talav.reset.reset.submit'|trans }}" />
+    </div>
+
+    {{ form_end(form) }}
+    
+{% endblock talav_user_content %}

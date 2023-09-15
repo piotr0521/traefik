@@ -1,0 +1,100 @@
+{% extends '@TalavUser/layout.html.twig' %}
+
+{% trans_default_domain 'TalavUserBundle' %}
+
+{% block talav_user_content %}
+    <div class="relative overflow-hidden md:mt-8 xl:mt-3 2xl:mt-8">
+        <h1 class="font-medium text-3xl sm:text-4xl xl:text-5xl text-indigo-900 text-center leading-tight mb-1 sm:mb-6">Create Account</h1>
+        <p class="text-xl text-indigo-900 text-center max-w-[522px] mx-auto mb-6 md:mb-12">
+            Create your Groshy account
+        </p>
+
+        {{ form_start(form, {'method': 'post', 'action': path('talav_user_register'), 'attr': {'class': 'form grid md:grid-cols-2 items-start max-w-screen-lg'}}) }}
+
+        <div class="form-row">
+            {{ form_label(form.firstName, 'First Name', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.firstName, {'attr': {'class': "form-input"} }) }}
+            {% if not form.firstName.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.firstName) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.lastName, 'Last Name', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.lastName, {'attr': {'class': "form-input"} }) }}
+            {% if not form.lastName.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.lastName) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.email, 'Email', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.email, {'attr': {'class': "form-input", 'placeholder': 'you@example.com'}})}}
+            {% if not form.email.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.email) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.username, 'Username', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.username, {'attr': {'class': "form-input"} }) }}
+            {% if not form.username.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.username) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.password.first, 'Password', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.password.first, {'attr': {'class': "form-input"} }) }}
+            {% if not form.password.first.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.password.first) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.password.second, 'Confirm password', {'label_attr': {'class': 'form-label'}})}}
+            {{ form_widget(form.password.second, {'attr': {'class': "form-input"} }) }}
+            {% if not form.password.second.vars.valid %}
+                <div class="form-error">
+                {{ form_errors(form.password.second) }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="md:col-span-2">
+            <div class="grid grid-flow-col items-center justify-start text-sm sm:text-base">
+                <input type="checkbox" id="" name="" checked required class="border-slate-300 rounded-md w-6 h-6"/>
+                <label for="remember_me" class="text-indigo-900 ml-4">
+                    I agree with the
+                    <a class="underline" href="{{ path('groshy_frontend_content_terms') }}">Terms of Use</a>
+                    and
+                    <a class="underline" href="{{ path('groshy_frontend_content_policy') }}">Privacy Policy</a>
+                </label>
+            </div>
+        </div>
+
+        <div class="text-center mt-7 md:col-span-2">
+            <input class="btn btn-primary text-sm sm:text-base" type="submit" formnovalidate value="Sign up" />
+        </div>
+
+        <div class="text-center md:col-span-2 text-sm sm:text-base">
+            <span class="text-indigo-900">Already have an Account</span>
+            <a href="{{ path('talav_user_login') }}" class="text-blue-700 hover:underline">
+                Log in
+            </a>
+        </div>
+
+        {{ form_end(form) }}
+    </div>
+
+{% endblock talav_user_content %}

@@ -1,0 +1,308 @@
+-
+  name: Depository
+  plaidName: depository
+  description: An account type holding cash, in which funds are deposited
+  children:
+    -
+      name: Checking
+      plaidName: checking
+      description: Checking account
+    -
+      name: Savings
+      plaidName: savings
+      description: Savings account
+    -
+      name: HSA (cash only)
+      plaidName: hsa
+      description: Health Savings Account (US only) that can only hold cash
+    -
+      name: CD
+      plaidName: cd
+      description: Certificate of deposit account
+    -
+      name: Money Market
+      plaidName: money market
+      description: Money market account
+    -
+      name: Paypal Cash
+      plaidName: paypal
+      description: PayPal depository account
+    -
+      name: Prepaid Debit Card
+      plaidName: prepaid
+      description: Prepaid debit card
+    -
+      name: Cash Management
+      plaidName: cash management
+      description: A cash management account, typically a cash account at a brokerage
+    -
+      name: EBT
+      plaidName: ebt
+      description: An Electronic Benefit Transfer (EBT) account, used by certain public assistance programs to distribute funds (US only)
+-
+  name: Credit
+  plaidName: credit
+  description: A credit card type account.
+  children:
+    -
+      name: Credit Card
+      plaidName: credit card
+      description: Bank-issued credit card
+    -
+      name: Paypal Credit
+      plaidName: paypal
+      description: PayPal-issued credit card
+-
+  name: Loan
+  plaidName: loan
+  description: A loan type account.
+  children:
+    -
+      name: Auto
+      plaidName: auo
+      description: Auto loan
+    -
+      name: Business
+      plaidName: business
+      description: Business loan
+    -
+      name: Commercial
+      plaidName: commercial
+      description: Commercial loan
+    -
+      name: Construction
+      plaidName: construction
+      description: Construction loan
+    -
+      name: Consumer
+      plaidName: consumer
+      description: Consumer loan
+    -
+      name: Home Equity
+      plaidName: home equity
+      description: Home Equity Line of Credit (HELOC)
+    -
+      name: General
+      plaidName: loan
+      description: General loan
+    -
+      name: Mortgage
+      plaidName: mortgage
+      description: Mortgage loan
+    -
+      name: Overdraft
+      plaidName: overdraft
+      description: Pre-approved overdraft account, usually tied to a checking account
+    -
+      name: Line of Credit
+      plaidName: line of credit
+      description: Pre-approved line of credit
+    -
+      name: Student
+      plaidName: student
+      description: Student loan
+    -
+      name: Other
+      plaidName: other
+      description: Other loan type or unknown loan type
+-
+  name: Investment
+  plaidName: investment
+  description: An investment account.
+  children:
+    -
+      name: "529"
+      plaidName: "529"
+      description: Tax-advantaged college savings and prepaid tuition 529 plans (US)
+    -
+      name: 401a
+      plaidName: 401a
+      description: Employer-sponsored money-purchase 401(a) retirement plan (US)
+    -
+      name: 401k
+      plaidName: 401k
+      description: Standard 401(k) retirement account (US)
+    -
+      name: 403B
+      plaidName: 403B
+      description: 403(b) retirement savings account for non-profits and schools (US)
+    -
+      name: 457b
+      plaidName: 457b
+      description: Tax-advantaged deferred-compensation 457(b) retirement plan for governments and non-profits (US)
+    -
+      name: Brokerage
+      plaidName: brokerage
+      description: Standard brokerage account
+    -
+      name: Cash ISA
+      plaidName: cash isa
+      description: Individual Savings Account (ISA) that pays interest tax-free (UK)
+    -
+      name: Crypto Exchange
+      plaidName: crypto exchange
+      description: Standard cryptocurrency exchange account
+    -
+      name: Education Savings Account
+      plaidName: education savings account
+      description: Tax-advantaged Coverdell Education Savings Account (ESA) (US)
+    -
+      name: Fixed Annuity
+      plaidName: fixed annuity
+      description: Fixed annuity
+    -
+      name: Guaranteed Investment Certificate
+      plaidName: gic
+      description: Guaranteed Investment Certificate (Canada)
+    -
+      name: Health Reimbursement Arrangement
+      plaidName: health reimbursement arrangement
+      description: Tax-advantaged Health Reimbursement Arrangement (HRA) benefit plan (US)
+    -
+      name: HSA
+      plaidName: hsa
+      description: Non-cash tax-advantaged medical Health Savings Account (HSA) (US)
+    -
+      name: IRA
+      plaidName: ira
+      description: Traditional Individual Retirement Account (IRA) (US)
+    -
+      name: ISA
+      plaidName: isa
+      description: Non-cash Individual Savings Account (ISA) (UK)
+    -
+      name: Keogh
+      plaidName: keogh
+      description: Keogh self-employed retirement plan (US)
+    -
+      name: LIF
+      plaidName: lif
+      description: Life Income Fund (LIF) retirement account (Canada)
+    -
+      name: Life Insurance
+      plaidName: life insurance
+      description: Life insurance account
+    -
+      name: LIRA
+      plaidName: lira
+      description: Locked-in Retirement Account (LIRA) (Canada)
+    -
+      name: LRIF
+      plaidName: lrif
+      description: Locked-in Retirement Income Fund (LRIF) (Canada)
+    -
+      name: LRSP
+      plaidName: lrsp
+      description: Locked-in Retirement Savings Plan (Canada)
+    -
+      name: Mutual Fund
+      plaidName: mutual fund
+      description: Mutual fund account
+    -
+      name: Non-Taxable Brokerage Account
+      plaidName: non-taxable brokerage account
+      description: A non-taxable brokerage account that is not covered by a more specific subtype
+    -
+      name: Other
+      plaidName: other
+      description: An account whose type could not be determined
+    -
+      name: Other Annuity
+      plaidName: other annuity
+      description: An annuity account not covered by other subtypes
+    -
+      name: Other Insurance
+      plaidName: other insurance
+      description: An insurance account not covered by other subtypes
+    -
+      name: Pension
+      plaidName: pension
+      description: Standard pension account
+    -
+      name: PRIF
+      plaidName: prif
+      description: Prescribed Registered Retirement Income Fund (Canada)
+    -
+      name: Profit Sharing Plan
+      plaidName: profit sharing plan
+      description: Plan that gives employees share of company profits
+    -
+      name: Qualifying Share Account
+      plaidName: qshr
+      description: Qualifying share account
+    -
+      name: Registered Disability Savings Plan
+      plaidName: rdsp
+      description: Registered Disability Savings Plan (RSDP) (Canada)
+    -
+      name: Registered Education Savings Plan
+      plaidName: resp
+      description: Registered Education Savings Plan (Canada)
+    -
+      name: Other Retirement Account
+      plaidName: retirement
+      description: Retirement account not covered by other subtypes
+    -
+      name: Restricted Life Income Fund
+      plaidName: rlif
+      description: Restricted Life Income Fund (RLIF) (Canada)
+    -
+      name: Roth IRA
+      plaidName: roth
+      description: Roth IRA (US)
+    -
+      name: Roth 401k
+      plaidName: roth 401k
+      description: Employer-sponsored Roth 401(k) plan (US)
+    -
+      name: Registered Retirement Income Fund
+      plaidName: rrif
+      description: Registered Retirement Income Fund (RRIF) (Canada)
+    -
+      name: Registered Retirement Savings Plan
+      plaidName: rrsp
+      description: Registered Retirement Savings Plan (Canadian, similar to US 401(k))
+    -
+      name: Salary Reduction Simplified Employee Pension Plan
+      plaidName: sarsep
+      description: Salary Reduction Simplified Employee Pension Plan (SARSEP), discontinued retirement plan (US)
+    -
+      name: SEP IRA
+      plaidName: sep ira
+      description: Simplified Employee Pension IRA (SEP IRA), retirement plan for small businesses and self-employed (US)
+    -
+      name: SIMPLE IRA
+      plaidName: simple ira
+      description: Savings Incentive Match Plan for Employees IRA, retirement plan for small businesses (US)
+    -
+      name: SIPP
+      plaidName: sipp
+      description: Self-Invested Personal Pension (SIPP) (UK)
+    -
+      name: Stock Plan
+      plaidName: stock plan
+      description: Standard stock plan account
+    -
+      name: TFSA
+      plaidName: tfsa
+      description: Tax-Free Savings Account (TFSA), a retirement plan similar to a Roth IRA (Canada)
+    -
+      name: Trust
+      plaidName: trust
+      description: Account representing funds or assets held by a trustee for the benefit of a beneficiary. Includes both revocable and irrevocable trusts.
+    -
+      name: UGMA
+      plaidName: ugma
+      description: Uniform Gift to Minors Act (brokerage account for minors, US)
+    -
+      name: UMA
+      plaidName: utma
+      description: Uniform Transfers to Minors Act (brokerage account for minors, US)
+    -
+      name: Variable Annuity
+      plaidName: variable annuity
+      description: Tax-deferred capital accumulation annuity contract
+-
+  name: Other
+  plaidName: other
+  description: Other or unknown account type

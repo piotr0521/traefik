@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Groshy.io{% endblock %}</title>
+    {% include 'common/header.html.twig' %}
+</head>
+<body>
+    <div class="flex flex-col min-h-screen">
+        {# start header deskrop #}
+        <header class="border-b border-blue-50 shadow-header">
+            <div class="container mx-auto pr-4 pl-4 md:pl-16 xl:pl-4 py-4">
+                <img src="{{ asset('images/beta-ico.svg') }}" alt="beta" class="absolute left-3 top-0 w-6 sm:w-auto">
+
+                <div class="flex flex-row items-center justify-between">
+                    <a href="{{ path('groshy_frontend_home_home') }}" class="w-44 sm:w-auto pl-8 sm:pl-0">
+                        <img src="{{ asset('images/logo.svg') }}" alt="groshy logo">
+                    </a>
+
+                    <nav class="main-menu mt-4 mb-5 md:m-0 hidden xl:block">
+                        {{ knp_menu_render('main_menu') }}
+                    </nav>
+
+                    <div class="xl:flex hidden">
+                        {% if is_granted('IS_AUTHENTICATED_FULLY') or is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+                            <a href="/user/dashboard" class="btn btn-outline inline-flex items-center py-2.5 px-6 text-md md:text-xl">
+                                Dashboard
+                            </a>
+                        {% else %}
+                            <a href="{{ path('talav_user_login') }}" class="btn btn-outline inline-flex items-center py-2.5 px-6 text-md md:text-xl">
+                                Sign in
+                            </a>
+                            <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center py-2.5 px-6 text-md md:text-xl ml-5">
+                                Try it free
+                            </a>
+                        {% endif %}
+                    </div>
+
+                    <div class="btn-menubar nav-menubar">
+                        <span class="sr-only">Open main menu</span>
+                        <div class="icon-bar">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {# end header desktop #}
+
+        {# start header mobile #}
+        <div class="menu-mobile">
+            <div class="btn-menubar nav-menubar ml-auto mr-4 sm:mr-10">
+                <span class="sr-only">Open main menu</span>
+                <div class="icon-bar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </div>
+            </div>
+            <nav class="flex flex-col h-full overflow-auto py-8 px-4 sm:px-10">
+                {{ knp_menu_render('main_menu') }}
+
+                <div class="flex flex-col mt-4">
+                    {% if is_granted('IS_AUTHENTICATED_FULLY') or is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+                        <a href="/user/dashboard" class="btn btn-outline text-md mb-5">
+                            Dashboard
+                        </a>
+                    {% else %}
+                        <a href="{{ path('talav_user_login') }}" class="btn btn-outline text-md mb-5">
+                            Sign in
+                        </a>
+                        <a href="{{ path('talav_user_register') }}" class="btn btn-primary px-10 text-md mb-5">
+                            Try it free
+                        </a>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+        {# end header mobile #}
+
+        {% block body %}{% endblock %}
+
+        {# start footer #}
+        <footer class="bg-indigo-900 py-10">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-6 gap-4 mb-6">
+                    <div class="col-span-6 lg:col-span-2 mb-8 lg:mb-0">
+                        <a href="{{ path('groshy_frontend_home_home') }}" >
+                            <img src="{{ asset('images/logo-white.svg') }}" alt="groshy logo">
+                        </a>
+                    </div>
+                    <div class="col-span-6 lg:col-span-4 flex flex-col md:flex-row justify-between text-white">
+                        <div class="mb-6 md:mb-0">
+                            <h5 class="text-xl font-medium mb-3 md:mb-6">Platform</h5>
+                            <ul>
+                                <li><a href="#" class="footer-nav">Product Features</a></li>
+                                <li><a href="{{ path('groshy_frontend_content_security') }}" class="footer-nav">Security</a></li>
+                                <li><a href="#" class="footer-nav">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-6 md:mb-0">
+                            <h5 class="text-xl font-medium mb-3 md:mb-6">Company</h5>
+                            <ul>
+                                <li><a href="#" class="footer-nav">Blog</a></li>
+                                <li><a href="#" class="footer-nav">Our Story</a></li>
+                                <li><a href="#" class="footer-nav">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-6 md:mb-0">
+                            <h5 class="text-xl font-medium mb-3 md:mb-6">Legal</h5>
+                            <ul>
+                                <li><a href="{{ path('groshy_frontend_content_terms') }}" class="footer-nav">Terms of Use</a></li>
+                                <li><a href="{{ path('groshy_frontend_content_policy') }}" class="footer-nav">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-6 md:mb-0">
+                            <h5 class="text-xl font-medium mb-3 md:mb-6">Social</h5>
+                            <ul>
+                                <li><a href="#" class="footer-nav">Twitter</a></li>
+                                <li><a href="#" class="footer-nav">Facebook</a></li>
+                                <li><a href="#" class="footer-nav">Linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between text-xs text-blue-300">
+                    <p>&#169; {{ 'now' | date('Y') }} Groshy.io. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+        {# end footer #}
+    </div>
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('client') }}
+    {% endblock %}
+</body>
+</html>

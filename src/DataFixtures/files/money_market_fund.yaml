@@ -1,0 +1,4256 @@
+-
+    fundType: 'Money Market Fund'
+    symbol: AAFXX
+    name: 'American Funds U.S. Government Money Market Fund Class 529-A'
+-
+    fundType: 'Money Market Fund'
+    symbol: AALXX
+    name: 'Thrivent Money Market Fund Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: AAOXX
+    name: 'American Beacon U.S. Government Money Market Select Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: AAZXX
+    name: 'American Funds U.S. Government Money Market Fund Class ABLE-A'
+-
+    fundType: 'Money Market Fund'
+    symbol: ABZXX
+    name: 'American Funds U.S. Government Money Market Fund Class ABLE-F-2'
+-
+    fundType: 'Money Market Fund'
+    symbol: ACAXX
+    name: 'American Century Prime Money Market Fd - A Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ACNXX
+    name: 'Invesco Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: ACXXX
+    name: 'Invesco Government Money Market Fund Class C5'
+-
+    fundType: 'Money Market Fund'
+    symbol: ACZXX
+    name: 'Invesco Government Money Market Fund Class A5'
+-
+    fundType: 'Money Market Fund'
+    symbol: ADAXX
+    name: 'Invesco Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: AEAXX
+    name: 'AB Government Money Market Portfolio - A'
+-
+    fundType: 'Money Market Fund'
+    symbol: AECXX
+    name: 'AB Government Money Market Portfolio - C'
+-
+    fundType: 'Money Market Fund'
+    symbol: AEKXX
+    name: 'AB Government Money Market Portfolio - K'
+-
+    fundType: 'Money Market Fund'
+    symbol: AEYXX
+    name: 'AB Government Money Market Portfolio - Adv'
+-
+    fundType: 'Money Market Fund'
+    symbol: AFAXX
+    name: 'American Funds U.S. Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: AFCXX
+    name: 'American Funds U.S. Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: AFFXX
+    name: 'American Funds U.S. Government Money Market Fund Class F-1'
+-
+    fundType: 'Money Market Fund'
+    symbol: AFGXX
+    name: 'American Funds U.S. Government Money Market Fund Class F-2'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGCXX
+    name: 'STIT Government & Agency Portfolio Corp Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGGXX
+    name: 'U.S. Government Money Market Fund - G Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGHXX
+    name: 'U.S. Government Money Market Fund - C Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGPXX
+    name: 'Invesco Government & Agency Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGQXX
+    name: 'U.S. Government Money Market Fund - A Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: AGRXX
+    name: 'AB Government Money Market Portfolio - 1'
+-
+    fundType: 'Money Market Fund'
+    symbol: AIEXX
+    name: 'AB Government Money Market Portfolio - I'
+-
+    fundType: 'Money Market Fund'
+    symbol: AIMXX
+    name: 'Invesco Government Money Market Fund Cash Reserve Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: AIRXX
+    name: 'Invesco Government Money Market Fund Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: AIYXX
+    name: 'Invesco Government Money Market Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: AJLXX
+    name: 'JPMorgan Liquid Assets Money Market Fund Agency Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: AJTXX
+    name: 'JPMorgan US Treasury Plus Money Market Fund Agency Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: AMAXX
+    name: 'PIMCO Government Money Market Fund Cl A'
+-
+    fundType: 'Money Market Fund'
+    symbol: AMGXX
+    name: 'PIMCO Government Money Market Fund Cl C'
+-
+    fundType: 'Money Market Fund'
+    symbol: AMMXX
+    name: 'Thrivent Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: APCXX
+    name: 'Cavanal Hill Government Securities Money Market Fund Administrative Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APGXX
+    name: 'Cavanal Hill U.S. Treasury Fund Administrative Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APHXX
+    name: 'Cavanal Hill Government Securities Money Market Fund Insti Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APJXX
+    name: 'Cavanal Hill U.S. Treasury Fund Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APKXX
+    name: 'Cavanal Hill U.S. Treasury Fund Insti Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APNXX
+    name: 'Cavanal Hill U.S. Treasury Select Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: APPXX
+    name: 'Cavanal Hill Government Securities Money Market Fund Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: APSXX
+    name: 'Cavanal Hill Government Securities Money Market Fund - Select Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ARCXX
+    name: 'American Century Prime Money Market - C Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BBSXX
+    name: 'BBH U.S. Government Money Market Fund Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCAXX
+    name: 'BlackRock California Money Fund - Private Client'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCBXX
+    name: 'BlackRock California Money Fund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCGXX
+    name: 'BlackRock Liquid Federal Trust Fund Bancroft Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCHXX
+    name: 'BlackRock Liquidity Funds T-Fund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCMXX
+    name: 'BlackRock Institutional Funds MuniFund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCTXX
+    name: 'American Century California Tax Free Money Market Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BCYXX
+    name: 'BlackRock Cash Fds, Treasury Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BECXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BEMXX
+    name: 'BlackRock Liquidity Funds T-Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFBXX
+    name: 'BlackRock Liquidity Funds FedFund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFCXX
+    name: 'BlackRock Liquidity Funds FedFund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFDXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Cash Reserves'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFFXX
+    name: 'BlackRock Liquidity Funds FedFund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFMXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFPXX
+    name: 'BlackRock Liquidity Funds TempFund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFRXX
+    name: 'BlackRock Liquidity Funds FedFund - Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: BFTXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BGCXX
+    name: 'Northern Institutional Fds Government Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BGDXX
+    name: 'Northern Institutional Fds Government Portfolio Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BGSXX
+    name: 'Northern Institutional  Government Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BIAXX
+    name: 'BlackRock Institutional Funds MuniFund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BIBXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BICXX
+    name: 'DWS Government Cash Management Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: BITXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLAXX
+    name: 'BlackRock Liquidity Funds TempCash - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLBXX
+    name: 'BlackRock California Money Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLCXX
+    name: 'BlackRock California Money Fund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLDXX
+    name: 'Federated Prime Private Liquidity Fund - Builders Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLFXX
+    name: 'BlackRock Liquidity Funds FedFund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLNXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLSXX
+    name: 'BlackRock Institutional Funds MuniFund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BLYXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMAXX
+    name: 'BlackRock Liquidity Funds MuniCash - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMBXX
+    name: 'BlackRock Institutional Funds MuniFund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMCXX
+    name: 'BlackRock Money Market Portfolio - Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMFXX
+    name: 'BlackRock Institutional Funds MuniFund - Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMMXX
+    name: 'BlackRock Money Market Portfolio - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BMPXX
+    name: 'BlackRock Institutional Funds MuniFund - Private Client'
+-
+    fundType: 'Money Market Fund'
+    symbol: BNBXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BNCXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BNGXX
+    name: 'Northern Institutional  Government Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: BNTXX
+    name: 'American Century Tax-Free Money Market Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BPCXX
+    name: 'BlackRock Institutional Funds MuniFund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BPDXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: BPMXX
+    name: 'BlackRock California Money Fund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BPRXX
+    name: 'American Century Prime Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BPTXX
+    name: 'BlackRock Liquidity Funds T-Fund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BRIXX
+    name: 'BlackRock Cash Fds, Treasury Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BRPXX
+    name: 'BlackRock Liquidity Funds FedFund - Private Client'
+-
+    fundType: 'Money Market Fund'
+    symbol: BRRXX
+    name: 'BlackRock Liquidity Funds TempFund - Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: BRSXX
+    name: 'BlackRock Cash Fds, Treasury Select Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BRTXX
+    name: 'BlackRock Liquidity Funds TempFund - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BSCXX
+    name: 'Northern Institutional Fds Government Select Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BSDXX
+    name: 'Northern Institutional Fds Government Select Portfolio Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BSLXX
+    name: 'BlackRock Liquidity Funds T-Fund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BSPXX
+    name: 'BlackRock Cash Fds, Treasury Premium Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTAXX
+    name: 'BlackRock Liquidity Funds T-Fund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTBXX
+    name: 'BlackRock Liquidity Funds TempFund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTCXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTFXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTMXX
+    name: 'BlackRock Liquidity Funds TempFund - Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTRXX
+    name: 'BlackRock Liquidity Funds T-Fund - Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: BTVXX
+    name: 'BlackRock Liquidity Funds TempFund - Private Client'
+-
+    fundType: 'Money Market Fund'
+    symbol: BUCXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: BUPXX
+    name: 'BlackRock Liquidity Funds FedFund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: BUYXX
+    name: 'State Street Institutional U.S. Government Money Market Fund - Blaylock Van Clas'
+-
+    fundType: 'Money Market Fund'
+    symbol: BVYXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund - Blaylock Van Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: BYPXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Private Client'
+-
+    fundType: 'Money Market Fund'
+    symbol: BYTXX
+    name: 'BlackRock Cash Fds, Treasury Trust Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CACXX
+    name: 'Federated Hermes California Municipal Cash Trust Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CAGXX
+    name: 'DWS Government & Agency Securities Portfolio: Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CAHXX
+    name: 'State Street Institutional U.S. Government Money Market Fund - Cabrera Capital M'
+-
+    fundType: 'Money Market Fund'
+    symbol: CAIXX
+    name: 'Federated Hermes California Municipal Cash Trust Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CAJXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund -  Cabrera Capital Ma'
+-
+    fundType: 'Money Market Fund'
+    symbol: CALXX
+    name: 'Federated Hermes California Municipal Cash Trust Cash II Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCCXX
+    name: 'Federated Hermes California Municipal Cash Trust Cap Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCFXX
+    name: 'American Funds U.S. Government Money Market Fund Class 529-C'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCLXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Cabrera Capital Markets Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCMXX
+    name: 'BlackRock Liquid Federal Trust Fund Cabrera Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCPXX
+    name: 'TempFund Cabrera Capital Markets Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CCSXX
+    name: 'Federated Hermes California Municipal Cash Trust  CS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CEAXX
+    name: 'Dreyfus Institutional Preferred Treasury Securities Money Market Fund Hamilton S'
+-
+    fundType: 'Money Market Fund'
+    symbol: CEIXX
+    name: 'Dreyfus Institutional Preferred Treasury Securities Money Market Fund Institutio'
+-
+    fundType: 'Money Market Fund'
+    symbol: CGMXX
+    name: 'Columbia Government Money Market Fund Class I3'
+-
+    fundType: 'Money Market Fund'
+    symbol: CHSXX
+    name: 'DWS Tax-Exempt Portfolio: Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CIFXX
+    name: 'WA Select Tax Free Reserves Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: CIIXX
+    name: 'Western Asset Institutional US Treasury Reserves Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CILXX
+    name: 'Western Asset Institutional Liquid Reserves Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CJLXX
+    name: 'JPMorgan Liquid Assets Money Market Fund Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CJPXX
+    name: 'JPMorgan Prime Money Market Fund Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CJTXX
+    name: 'JPMorgan 100% US Treasury Securities Money Market Fund Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: CLFXX
+    name: 'State Street ESG Liquid Reserves Fund - Cabrera Capital Markets Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: CLNXX
+    name: 'Columbia Government Money Market Fund - Commissionable Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: CMQXX
+    name: 'Capital Group Central Fund Series - Capital Group Central Cash Fund Class M'
+-
+    fundType: 'Money Market Fund'
+    symbol: CMRXX
+    name: 'Columbia Government Money Market Fund Class I2'
+-
+    fundType: 'Money Market Fund'
+    symbol: CNFXX
+    name: 'City National Rochdale Government Money Market Fund Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: CNGXX
+    name: 'City National Rochdale Government Money Market Fund Class N'
+-
+    fundType: 'Money Market Fund'
+    symbol: CNIXX
+    name: 'City National Rochdale Government Money Market Fund Servicing Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: COSXX
+    name: 'MSILF Government Portfolio CastleOak Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: CPFXX
+    name: 'American Century Capital Preservation Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRHXX
+    name: 'MFS U.S. Government Cash Reserve Fund Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRJXX
+    name: 'MFS Cash Reserve Fund Class R3'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRKXX
+    name: 'MFS Cash Reserve Fund Class R4'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRMXX
+    name: 'MFS Cash Reserve Fund Class R2'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRRXX
+    name: 'MFS U.S. Government Cash Reserve Fund Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: CRVXX
+    name: 'MFS Cash Reserve Fund Class R1'
+-
+    fundType: 'Money Market Fund'
+    symbol: CSJXX
+    name: 'State Street Institutional Treasury Money Market Fund  - Cabrera Capital Markets'
+-
+    fundType: 'Money Market Fund'
+    symbol: CVGXX
+    name: 'Invesco Government & Agency Portfolio CAVU Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: CVPXX
+    name: 'Invesco Liquid Assets Portfolio CAVU Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: CVTXX
+    name: 'Invesco Treasury Portfolio CAVU Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DACXX
+    name: 'Dreyfus Cash Management Administrative Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DAGXX
+    name: 'Dreyfus Govt Cash Mgmt Administrative Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: DAPXX
+    name: 'Dreyfus Government Securities Cash Management Administrative Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DARXX
+    name: 'Dreyfus Treasury Securities Cash Management Administrative Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DBBXX
+    name: 'DWS Government & Agency Securities Portfolio: DWS Government Cash Institutional '
+-
+    fundType: 'Money Market Fund'
+    symbol: DBLXX
+    name: 'Dreyfus Government Cash Management BOLD Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DCEXX
+    name: 'Dreyfus Cash Management Preferred Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DCMXX
+    name: 'DWS Government & Agency Securities Portfolio: Government Cash Managed Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DEIXX
+    name: 'Dreyfus Tax Exempt Cash Management Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DFRXX
+    name: 'Morgan Stanley Tax-Free Daily Income Trust - S Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DFSXX
+    name: 'Morgan Stanley California Tax-Free Daily Income Trust - S Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGCXX
+    name: 'Dreyfus Govt Cash Mgmt Inst Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGEXX
+    name: 'Morgan Stanley U.S. Government Money Market Trust - S Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGPXX
+    name: 'Dreyfus Government Securities Cash Management Participant Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGQXX
+    name: 'Dreyfus Government Cash Management Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGUXX
+    name: 'Dreyfus Government Cash Management Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DGVXX
+    name: 'Dreyfus Govt Cash Mgmt Investor Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: DHLXX
+    name: 'Dreyfus Institutional Preferred Treasury Obligations Fund Hamilton Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DICXX
+    name: 'Dreyfus Cash Management Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DIPXX
+    name: 'Dreyfus Government Securities Cash Management Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DIRXX
+    name: 'Dreyfus Treasury Securities Cash Management Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DNSXX
+    name: 'Dreyfus Institutional Preferred Treasury Obligations Fund Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DOAXX
+    name: 'DWS Money Market Prime Series - DWS Cash Investment Trust - Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: DOCXX
+    name: 'DWS Money Market Prime Series - DWS Cash Investment Trust - Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: DOSXX
+    name: 'DWS Money Market Prime Series - DWS Cash Investment Trust - Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: DPFXX
+    name: 'Dreyfus Institutional Preferred Government Plus Money Market Fund SL Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DPGXX
+    name: 'Dreyfus Govt Cash Mgmt Participant Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: DPRXX
+    name: 'Dreyfus Treasury Securities Cash Management Participant Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DSCXX
+    name: 'Morgan Stanley California Tax Free Daily Income Trust - R Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DSHXX
+    name: 'Dreyfus Institutional Preferred Government Money Market Fund Hamilton Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DSTXX
+    name: 'Morgan Stanley Tax-Free Daily Income Trust - R Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DSVXX
+    name: 'Dreyfus Institutional Preferred Government Money Market Fund Insti Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTAXX
+    name: 'Dreyfus Treasury Obligations Cash Management Administrative Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTBXX
+    name: 'DWS Tax-Exempt Portfolio: DWS Tax-Exempt Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTCXX
+    name: 'DWS Tax-Exempt Portfolio: DWS Tax-Free Money Fund Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTDXX
+    name: 'DWS Tax-Exempt Portfolio:  Tax-Free Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTGXX
+    name: 'DWS Government & Agency Securities Portfolio: DWS Government & Agency Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTHXX
+    name: 'Dreyfus Treasury Securities Cash Management Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTJXX
+    name: 'Dreyfus Treasury Securities Cash Management Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTKXX
+    name: 'Dreyfus Treasury Obligations Cash Management Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTLXX
+    name: 'Dreyfus Treasury and Agency Liquidity Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTNXX
+    name: 'Dreyfus Treasury Obligations Cash Management Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTPXX
+    name: 'Dreyfus Treasury Obligations Cash Management Participant Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTRXX
+    name: 'Dreyfus Treasury Obligations Cash Management Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DTVXX
+    name: 'Dreyfus Treasury Obligations Cash Management Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DVCXX
+    name: 'Dreyfus Cash Management Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DVPXX
+    name: 'Dreyfus Government Securities Cash Management Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DVRXX
+    name: 'Dreyfus Treasury Securities Cash Management Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: DWGXX
+    name: 'Morgan Stanley U.S. Government Money Market Trust - R Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: EAFXX
+    name: 'American Funds U.S. Government Money Market Fund Class 529-E'
+-
+    fundType: 'Money Market Fund'
+    symbol: EDUXX
+    name: 'BlackRock Liquid Federal Trust Fund Mischler Financial Group Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: EISXX
+    name: 'Allspring Municipal Cash Management Money Market Fund Svc'
+-
+    fundType: 'Money Market Fund'
+    symbol: EJGXX
+    name: 'JPMorgan U.S. Government Money Market Fund Empower Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: EJPXX
+    name: 'JPMorgan Prime Money Market Fund Empower Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: EJTXX
+    name: 'JPMorgan 100% U.S. Treasury Securities Money Market Fund Empower Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: EJUXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market Fund Empower Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ELFXX
+    name: 'State Street ESG Liquid Reserves Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ELGXX
+    name: 'State Street ESG Liquid Reserves Fund Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ELMXX
+    name: 'Elfun Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: ELRXX
+    name: 'State Street ESG Liquid Reserves Fund  Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: EMMXX
+    name: 'Allspring Municipal Cash Management Money Market Fund Insti'
+-
+    fundType: 'Money Market Fund'
+    symbol: ENVXX
+    name: 'State Street ESG Liquid Reserves Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ESBXX
+    name: 'State Street ESG Liquid Reserves Fund Administration Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: ESGXX
+    name: 'DWS ESG Liquidity Fund - Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ESIXX
+    name: 'DWS ESG Liquidity Fund - Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ESRXX
+    name: 'DWS ESG Liquidity Fund Institutional Reserved Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAAXX
+    name: 'First American Government Obligations Fund Retail Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FADXX
+    name: 'Goldman Sachs Financial Square Money Market Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAEXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Administration'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAHXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAIXX
+    name: 'First American Institutional Prime Obligations Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAJXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Preferred'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAKXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Resource'
+-
+    fundType: 'Money Market Fund'
+    symbol: FALXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: FANXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: FAPXX
+    name: 'Retail Prime Obligations Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FARXX
+    name: 'American Funds U.S. Government Money Market Fund Class 529-F-1'
+-
+    fundType: 'Money Market Fund'
+    symbol: FATXX
+    name: 'First American Treasury Obligations Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FBAXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FBSXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCEXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Pt Cl II'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCFXX
+    name: 'Fidelity California Municipal Fund Money Market Pt'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCGXX
+    name: 'Fidelity Institutional Money Market Funds: Government Pt Cl III'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCIXX
+    name: 'Fidelity Institutional Money Market Funds: Mmkt Pt Cl II'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCMXX
+    name: 'Fidelity Connecticut Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCOXX
+    name: 'Fidelity Institutional Money Market Funds: Mmkt Pt Cl III'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCSXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Pt Cl III'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCVXX
+    name: 'Fidelity Institutional Money Market Funds: Government Pt Cl II'
+-
+    fundType: 'Money Market Fund'
+    symbol: FCYXX
+    name: 'Goldman Sachs Investor Tax-Exempt Money Market Fund - Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDCXX
+    name: 'Fidelity Treasury Money Market Fund: Advisor C Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDEXX
+    name: 'Fidelity Tax-Exempt Money Market Fund: Daily Money Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDLXX
+    name: 'Fidelity Treasury Only Money Markey Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDMXX
+    name: 'Fidelity Massachusetts Tax Free Money Market'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDRXX
+    name: 'Fidelity Cash Reserves'
+-
+    fundType: 'Money Market Fund'
+    symbol: FDUXX
+    name: 'Fidelity Treasury Money Market Fund: Daily Money Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FEAXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Administration Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FEDXX
+    name: 'Financial Square Federal Fund FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FEIXX
+    name: 'Retail Prime Obligations Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FERXX
+    name: 'Fidelity Tax-Exempt Money Market Fund: Capital Reserves Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FESXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FETXX
+    name: 'Fidelity Institutional Money Market Funds: Tax-Exempt Cl III'
+-
+    fundType: 'Money Market Fund'
+    symbol: FEXXX
+    name: 'Fidelity Institutional Money Market Funds: Tax-Exempt Cl II'
+-
+    fundType: 'Money Market Fund'
+    symbol: FFCXX
+    name: 'First American Retail Tax Free Obligations Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: FFFXX
+    name: 'American Funds U.S. Government Money Market Fund - Class 529-F-2'
+-
+    fundType: 'Money Market Fund'
+    symbol: FFTXX
+    name: 'Federated Hermes Institutional Tax-Free Cash Trust IS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGAXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGDXX
+    name: 'First American MM Fds Gv Obligations Corp Tr Cl D'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGEXX
+    name: 'Fidelity Government Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGFXX
+    name: 'Goldman Sachs Financial Square Tax-Exempt Money Market Fund Class FST'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGGXX
+    name: 'Goldman Sachs Financial Square Government Fd R6 Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGNXX
+    name: 'Fidelity Series Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGTXX
+    name: 'Financial Square Government Fund FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGUXX
+    name: 'Government Obligations Fund Class U'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGVXX
+    name: 'First American Funds Institutional Government Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGXXX
+    name: 'First American Government Obligations Fund Class X'
+-
+    fundType: 'Money Market Fund'
+    symbol: FGZXX
+    name: 'First American Government  Obligations Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FHIXX
+    name: 'First American Retail Tax Free Obligations Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FHMXX
+    name: 'Goldman Sachs Investor Money Market Fund Class Cash Management'
+-
+    fundType: 'Money Market Fund'
+    symbol: FHRXX
+    name: 'Goldman Sachs Investor Money Market Fund  Class Resource'
+-
+    fundType: 'Money Market Fund'
+    symbol: FHSXX
+    name: 'Goldman Sachs Investor Money Market Fund Class Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIGXX
+    name: 'Fidelity Institutional Money Market Fds: Gov Pt Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIHXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Preferred Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIJXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Select Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIKXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FILXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIOXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Administration Sha'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIQXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIRXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FISXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Pt Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIUXX
+    name: 'First American Institutional Prime Obligations Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FIWXX
+    name: 'Goldman Sachs Financial Square Federal Instruments Fund - FST Cash Management Sh'
+-
+    fundType: 'Money Market Fund'
+    symbol: FKIXX
+    name: 'Goldman Sachs Investor Tax-Exempt Money Market Fund - Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FLGXX
+    name: 'Fidelity Flex Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FLIXX
+    name: 'First American Treasury Obligations Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FLPXX
+    name: 'Meeder Institutional Prime Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMAXX
+    name: 'Fidelity Massachusetts AMT Tax-Free Money Market Fund Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMEXX
+    name: 'Goldman Sachs Investor Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMFXX
+    name: 'Franklin U.S. Government Money Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMGXX
+    name: 'Goldman Sachs Investor Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMHXX
+    name: 'Fidelity Massachusetts AMT-Free Money Market Fund Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMIXX
+    name: 'Fidelity Michigan Municipal Money Market Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMJXX
+    name: 'Goldman Sachs Investor Money Market Fund Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMKXX
+    name: 'Goldman Sachs Investor Money Market Fund Class Admin'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMOXX
+    name: 'Fidelity Tax-Exempt Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMPXX
+    name: 'Fidelity Institutional Money Market Funds: MMkt Pt Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMQXX
+    name: 'Fidelity SAI Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMSXX
+    name: 'Fidelity Massachusetts AMT-Tax-Free Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMUXX
+    name: 'American Funds U.S. Government Money Market Fund - Class 529-F-3'
+-
+    fundType: 'Money Market Fund'
+    symbol: FMYXX
+    name: 'Fidelity Money Market Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNBXX
+    name: 'Fidelity Government Money Market Fund: Class K6'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNCXX
+    name: 'Federated Hermes New York Municipal Cash Trust CS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNDXX
+    name: 'Federated Prime Private Liquidity Fund - Founders Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNJXX
+    name: 'Fidelity New Jersey Tax Free Fund Money Market Port.'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNKXX
+    name: 'Fidelity New York AMT Tax-Free Money Market Fund Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNNXX
+    name: 'Fidelity New Jersey AMT Tax-Free Money Market Fund Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNOXX
+    name: 'Fidelity New York AMT Tax-Free Money Market Fund Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNSXX
+    name: 'Fidelity Insti Money Market Funds Money Market Port - Inst Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNTXX
+    name: 'Federated Hermes New York Municipal Cash Trust - Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FNYXX
+    name: 'Fidelity New York Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOAXX
+    name: 'Goldman Sachs Financial Square Govt Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOBXX
+    name: 'Franklin OnChain U.S. Government Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOCXX
+    name: 'First American Money Market Fund Treasury Obligations Institutional Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: FODXX
+    name: 'First American U.S. Treasury Money Market Fund Class D'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOEXX
+    name: 'First American U.S. Treasury Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOIXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Only Pt Cl III'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOMXX
+    name: 'Fidelity Ohio Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOPXX
+    name: 'Fidelity Insti Money Market Funds Treasury Only Portfolio - Cl IV'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOSXX
+    name: 'Goldman Sachs Financial Square Govt Fd Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOXXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Only Pt Cl II'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOYXX
+    name: 'First American U.S. Treasury Money Market Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: FOZXX
+    name: 'First American U.S. Treasury Money Market Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPIXX
+    name: 'First American Institutional Prime Obligations Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPOXX
+    name: 'Financial Square Prime Obligations Fund FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPPXX
+    name: 'Government Obligations Fund Class P'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPTXX
+    name: 'Fidelity Pennsylvania Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPUXX
+    name: 'Retail Prime Obligations Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPXXX
+    name: 'Federal Trust Fund - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FPZXX
+    name: 'First American Institutional Prime Obligations Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRAXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRBXX
+    name: 'FIMM Treasury Portfolio: Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRFXX
+    name: 'Federated Hermes Capital Reserves Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRGXX
+    name: 'FIMM Government Portfolio: Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRQXX
+    name: 'Franklin U.S. Government Money Fund Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRRXX
+    name: 'Franklin U.S. Government Money Fund Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: FRSXX
+    name: 'FIMM Treasury Only Portfolio: Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSAXX
+    name: 'Fidelity Arizona Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSBXX
+    name: 'Fidelity California AMT Tax-Free Money Market Fund Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSGXX
+    name: 'Goldman Sachs Financial Square Government Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSIXX
+    name: 'Fidelity Institutional Money Market Funds: Treasury Only Pt Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSJXX
+    name: 'Fidelity New Jersey AMT Tax-Free Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSKXX
+    name: 'Fidelity New Jersey AMT Tax-Free Money Market Fund Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSMXX
+    name: 'Financial Square Money Market Fund FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSNXX
+    name: 'Fidelity New York AMT Tax-Free Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSOXX
+    name: 'Goldman Sachs Financial Square Government Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSPXX
+    name: 'Fidelity California AMT Tax-Free Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSRXX
+    name: 'Fidelity Treasury Money Market Fund: Capital Reserves Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSSXX
+    name: 'Fidelity California AMT Tax-Free Money Market Fund Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSVXX
+    name: 'Goldman Sachs Financial Square Money Market Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FSXXX
+    name: 'Fidelity Tax Exempt Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTAXX
+    name: 'First American Retail Tax Free Obligations Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTCXX
+    name: 'Fidelity Institutional Money Market Funds: Tax-Exempt Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTDXX
+    name: 'First American MM Fds Treas Obligations Corp Tr Cl D'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTEXX
+    name: 'Fidelity Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTFXX
+    name: 'Federated Hermes Institutional Tax-Free Cash Trust PRM Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTGXX
+    name: 'First American Government Obligations Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTIXX
+    name: 'Financial Square Treasury Instruments Fd - FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTJXX
+    name: 'First American Retail Tax Free Obligations Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTKXX
+    name: 'First American U.S. Treasury Money Market Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTOXX
+    name: 'Financial Square Treasury Obligations Fund FST Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTQXX
+    name: 'Franklin U.S. Government Money Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTRXX
+    name: 'HSBC U.S. Government Money Market Fund Class A Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTTXX
+    name: 'First American Treasury Obligations Fund Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTUXX
+    name: 'Fidelity Treasury Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTVXX
+    name: 'Fidelity Insti Money Market Funds Treasury Portfolio - Cl IV'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTXXX
+    name: 'Investor Tax-Exempt Money Market Fund - I Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTYXX
+    name: 'Fidelity Treasury Only Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FTZXX
+    name: 'First American Retail Tax Free Obligations Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FUGXX
+    name: 'Premier U.S. Government Money Fd Investor Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: FUIXX
+    name: 'First American U.S. Treasury Money Market Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FUPXX
+    name: 'Treasury Obligations Fund Class P'
+-
+    fundType: 'Money Market Fund'
+    symbol: FUZXX
+    name: 'First American Treasury Obligations Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FVAXX
+    name: 'Goldman Sachs Financial Square Federal Fd Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FVIXX
+    name: 'First American Government Obligations Fund Class V'
+-
+    fundType: 'Money Market Fund'
+    symbol: FVSXX
+    name: 'Goldman Sachs Financial Square Federal Fd Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FXFXX
+    name: 'First American Treasury Obligations Fund Class X'
+-
+    fundType: 'Money Market Fund'
+    symbol: FXRXX
+    name: 'Retail Prime Obligations Fund Class X'
+-
+    fundType: 'Money Market Fund'
+    symbol: FYAXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FYRXX
+    name: 'Retail Prime Obligations Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: FYSXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd Service Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZAXX
+    name: 'Fidelity Government Money Market Fund: Capital Reserves Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZBXX
+    name: 'Fidelity Government Money Market Fund: Daily Money Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZCXX
+    name: 'Fidelity Government Money Market Fund: Premium Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZDXX
+    name: 'Fidelity Money Market Fund: Premium Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZEXX
+    name: 'Fidelity Tax-Exempt Money Market Fund: Premium Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZFXX
+    name: 'Fidelity Treasury Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZGXX
+    name: 'Fidelity Government Money Market Fund: Advisor Class M'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZRXX
+    name: 'Retail Prime Obligations Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: FZSXX
+    name: 'Fidelity Government Money Market Fund - Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: GABXX
+    name: 'Gabelli U.S. Treasury Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: GBAXX
+    name: 'Gabelli U.S. Treasury Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: GBCXX
+    name: 'Gabelli U.S. Treasury Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: GBMXX
+    name: 'Dreyfus National Municipal Money Market Fund Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GBRXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCFXX
+    name: 'Goldman Sachs Financial Sq Federal Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCGXX
+    name: 'Goldman Sachs Financial Sq Government Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCIXX
+    name: 'Goldman Sachs Financial Sq Treasury Instruments Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCKXX
+    name: 'Goldman Sachs Financial Sq Money Market Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCPXX
+    name: 'Goldman Sachs Financial Sq Prime Obligations Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCTXX
+    name: 'Goldman Sachs Financial Sq Treasury Obligations Fd - FST Capital Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GCXXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFAXX
+    name: 'Government Fund Class CAA'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFCXX
+    name: 'Goldman Sachs Financial Square Federal Fd CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFOXX
+    name: 'Goldman Sachs Financial Square Prime Oblighations Fd CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFPXX
+    name: 'Goldman Sachs Financial Square Federal Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFRXX
+    name: 'Goldman Sachs Financial Square Federal Fund Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFSXX
+    name: 'Federated Hermes Government Obligations Fund CS shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GFYXX
+    name: 'Federated Hermes Government Obligations Fund CII shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GGPXX
+    name: 'Goldman Sachs Financial Square Government Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GICXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GIPXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GIRXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMBXX
+    name: 'Dreyfus Money Market Fund Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMCXX
+    name: 'Invesco U.S. Government Money Portfolio Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMGXX
+    name: 'Dreyfus Money Market Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMHXX
+    name: 'Dreyfus National Municipal Money Market Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMIXX
+    name: 'Nationwide Government Money Market Fund Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMLXX
+    name: 'Invesco U.S. Government Money Portfolio Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMMXX
+    name: 'Dreyfus Money Market Fund Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMNXX
+    name: 'ABFIS-AB Government Money Market Portfolio - Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMOXX
+    name: 'AB Government Money Market Portfolio Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMPXX
+    name: 'ABFIS-AB Government Money Market Portfolio - Premium Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMQXX
+    name: 'Invesco U.S. Government Money Portfolio Cash Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMRXX
+    name: 'Invesco U.S. Government Money Portfolio Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMSXX
+    name: 'ABFIS-AB Government Money Market Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMYXX
+    name: 'GuideStone Funds Money Market Fund - Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GMZXX
+    name: 'GuideStone Funds Money Market Fund - Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GNBXX
+    name: 'Dreyfus New York Municipal Money Market Fund-Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GNMXX
+    name: 'Dreyfus New York Municipal Money Market Fund-Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GNYXX
+    name: 'Dreyfus New York Municipal Money Market Fund-Service Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOAXX
+    name: 'Federated Hermes Government Obligations Tax-Managed Fund Class AS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOCXX
+    name: 'Federated Hermes Government Obligations Fund Cap Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOEXX
+    name: 'Federated Hermes Government Obligations Fund ADM Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOFXX
+    name: 'Federated Hermes Government Obligations Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOIXX
+    name: 'Federated Hermes Government Obligations Fund IS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOPXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GORXX
+    name: 'Federated Hermes Government Obligations Fund Trust Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOSXX
+    name: 'Federated Hermes Government Obligations Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOTXX
+    name: 'Federated Hermes Government Obligations Tax-Managed Fund Class IS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GOVXX
+    name: 'Federated Hermes Government Obligations Fund AVR Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPEXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Great Pacific Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPFXX
+    name: 'Goldman Sachs Fds, Financial Square Federal Fd FST Preferred Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPGXX
+    name: 'Goldman Sachs Financial Square Government Fd  FST Pfd Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPHXX
+    name: 'Federated Hermes Government Obligations Fund - SDG Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPIXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd  FST Pfd Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPMXX
+    name: 'Goldman Sachs Financial Square Money Market Fd  FST Pfd Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPOXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd  FST Pfd Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPPXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd FST Pfd Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPRXX
+    name: 'Goldman Sachs Financial Square Money Market Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPSXX
+    name: 'BlackRock Liquid Federal Trust Fund - Great Pacific Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPTXX
+    name: 'Investor Tax-Exempt Money Market Fund -- FST Preferred Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GPVXX
+    name: 'STIT Government & Agency Portfolio Private Investment  Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRAXX
+    name: 'Federated Hermes Government Reserves Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRBXX
+    name: 'Federated Hermes Government Reserves Fund Class B'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRCXX
+    name: 'Federated Hermes Government Reserves Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: GREXX
+    name: 'Goldman Sachs Financial Square Money Market Fd Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRFXX
+    name: 'Federated Hermes Government Reserves Fund Class P'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRGXX
+    name: 'Federated Hermes Government Reserves Fund Class F'
+-
+    fundType: 'Money Market Fund'
+    symbol: GRTXX
+    name: 'Federated Hermes Government Obligations Fund Select Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSCXX
+    name: 'Goldman Sachs Financial Square Money Market Fd CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSFXX
+    name: 'Goldman Sachs Fds, Financial Square Federal Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSGXX
+    name: 'Goldman Sachs Financial Square Government Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSIXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSMXX
+    name: 'Goldman Sachs Financial Square Money Market Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSOXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSPXX
+    name: 'Goldman Sachs Financial Square Prime Obligations Fd FST Select Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GSTXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Select Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GTMXX
+    name: 'Dreyfus National Municipal Money Market Fund Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GTOXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fund CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GTPXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd Premier Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GTRXX
+    name: 'Goldman Sachs Financial Square Treasury Obligations Fd Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GTSXX
+    name: 'Federated Hermes Government Obligations Tax-Managed Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVCXX
+    name: 'Goldman Sachs Financial Square Government Fd CMS'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVIXX
+    name: 'Allspring Government Money Market Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVMXX
+    name: 'State Street Insti U.S. Govt Money Market Fd Insti Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVRXX
+    name: 'Goldman Sachs Financial Square Government Fd Resource Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVSXX
+    name: 'State Street Insti U.S. Government Money Market Fd Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GVVXX
+    name: 'State Street Insti U.S. Govt Money Market Fd Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: GXCXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST CMS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GXPXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: GXRXX
+    name: 'Investor Tax-Exempt Money Market Fund - FST Resource Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: HARXX
+    name: 'Harbor Money Market Fund Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: HBIXX
+    name: 'HSBC U.S. Treasury Money Market Fd Cl I Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HDIXX
+    name: 'Homestead Funds, Inc. - Daily Income Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: HEDXX
+    name: 'HSBC ESG Prime Money Market Fund Class D'
+-
+    fundType: 'Money Market Fund'
+    symbol: HEGXX
+    name: 'HSBC ESG Prime Money Market Fund Intermediary Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HEIXX
+    name: 'HSBC ESG Prime Money Market Fund Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: HETXX
+    name: 'HSBC ESG Prime Money Market Fund Intermediary Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HEWXX
+    name: 'Alight Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: HEYXX
+    name: 'HSBC ESG Prime Money Market Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGDXX
+    name: 'HSBC US Govt MM Fd Cl D Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGEXX
+    name: 'HSBC U.S. Government Money Mkt Fd Cl E Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGFXX
+    name: 'HSBC U.S. Government Money Market Fund Intermediary Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGGXX
+    name: 'HSBC U.S. Government Money Market Fund Intermediary Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGIXX
+    name: 'HSBC U.S. Government Money Market Fund Cl I Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HGOXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market Investor'
+-
+    fundType: 'Money Market Fund'
+    symbol: HLPXX
+    name: 'JPMorgan Liquid Assets Money Market Investor'
+-
+    fundType: 'Money Market Fund'
+    symbol: HPIXX
+    name: 'JPMorgan Liquid Assets Money Market Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: HRMXX
+    name: 'Harbor Money Market Fund Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTDXX
+    name: 'HSBC U.S. Treasury Money Market Fund Class D Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTEXX
+    name: 'HSBC U.S. Treasury Money Market Fd Cl E Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTFXX
+    name: 'HSBC U.S. Treasury Money Market Fund Intermediary Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTGXX
+    name: 'HSBC U.S. Treasury Money Market Fund Intermediary Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTIXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTOXX
+    name: 'JPMorgan Municipal Money Market Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTSXX
+    name: 'JPMorgan  100% U.S. Treasury Securities MM Fund Morgan Shr C'
+-
+    fundType: 'Money Market Fund'
+    symbol: HTYXX
+    name: 'HSBC U.S. Treasury Money Market Fund Class Y Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HUAXX
+    name: 'BlackRock Liquidity Funds FedFund Mischler Financial Group Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: HUCXX
+    name: 'HSBC U.S. Treasury Money Market Fund Class C Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HUMXX
+    name: 'HSBC U.S. Government Money Market Fund Class C Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: HWAXX
+    name: 'HSBC U.S. Treasury Money Market Fund Class A Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: IAAXX
+    name: 'Delaware Ivy Cash Management Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: IACXX
+    name: 'Delaware Ivy Cash Management Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: IATXX
+    name: 'Transamerica Government Money Market Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: ICAXX
+    name: 'DWS Government Money Market Series - Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ICGXX
+    name: 'DWS Treasury Portfolio - Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ICTXX
+    name: 'DWS Treasury Portfolio - Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IDSXX
+    name: 'Columbia Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: IDYXX
+    name: 'Columbia Government Money Market Fund Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: IJGXX
+    name: 'JPMorgan US Government Money Market Fund Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IJLXX
+    name: 'JPMorgan Liquid Assets Money Market Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IJMXX
+    name: 'JPMorgan Municipal Money Market Fund Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IJTXX
+    name: 'JPMorgan US Treasury Plus Money Market Fund Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IMLXX
+    name: 'Transamerica Government Money Market Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: IMPXX
+    name: 'MSILF Government Portfolio - Impact Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: IMRXX
+    name: 'Invesco Premier Portfolio Investor Class Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IMSXX
+    name: 'Voya Money Market Portfolio Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: IMTXX
+    name: 'MSILF Prime Portfolio - Impact Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: INAXX
+    name: 'Invesco Government Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: INFXX
+    name: 'Institutional Fiduciary Trust Money Market Pt'
+-
+    fundType: 'Money Market Fund'
+    symbol: INGXX
+    name: 'Western Asset Institutional Government Reserves Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: INVXX
+    name: 'Invesco Government Money Market Fund Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: IPLXX
+    name: 'Voya Liquid Assets Portfolio Initial'
+-
+    fundType: 'Money Market Fund'
+    symbol: IPPXX
+    name: 'Invesco Premier Portfolio Institutional Class Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IPTXX
+    name: 'Premier Portfolio Private Invt Cl Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: IPVXX
+    name: 'Premier Portfolio Personal Invt Cl Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: IRCXX
+    name: 'Premier Portfolio Resource Cl Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: IRVXX
+    name: 'Premier Portfolio Reserve Cl Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: ISPXX
+    name: 'Voya Liquid Assets Portfolio Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: ISSXX
+    name: 'Federated Prime Private Liquidity Fund - Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: ITLXX
+    name: 'Voya Liquid Assets Portfolio S2'
+-
+    fundType: 'Money Market Fund'
+    symbol: ITVXX
+    name: 'DWS Treasury Portfolio - Investment Class Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: IUGXX
+    name: 'Invesco Premier US Government Money Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: IUSXX
+    name: 'DWS Treasury Portfolio - DWS U.S. Treasury Money Fund Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: IVEXX
+    name: 'Delaware Ivy Government Money Market Fund Class E'
+-
+    fundType: 'Money Market Fund'
+    symbol: IVMXX
+    name: 'Voya Money Market Portfolio Initial'
+-
+    fundType: 'Money Market Fund'
+    symbol: JAAXX
+    name: 'John Hancock Variable Insurance Trust Money Market Portfolio Trust Series 2'
+-
+    fundType: 'Money Market Fund'
+    symbol: JABXX
+    name: 'John Hancock Variable Insurance Trust Money Market Portfolio Trust Series NAV'
+-
+    fundType: 'Money Market Fund'
+    symbol: JACXX
+    name: 'JPMorgan 100% U.S. Treasury Securities Money Market Fund Academy Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JAGXX
+    name: 'Janus Henderson Government Money Market Fund - T Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JAMXX
+    name: 'Janus Henderson Money Market Fund - T Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JCEXX
+    name: 'JPMorgan California Municipal Money Market Fund E Trade'
+-
+    fundType: 'Money Market Fund'
+    symbol: JCRXX
+    name: 'JPMorgan California Municipal Money Market Fund Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JCVXX
+    name: 'JPMorgan California Municipal Money Market Fund Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: JFMXX
+    name: 'JPMorgan Federal Money Market Fund - Institutional Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JGAXX
+    name: 'JPMorgan U.S. Government Money Market Fund Academy Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JGCXX
+    name: 'JPMorgan California Municipal Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JGMXX
+    name: 'JPMorgan US Government Money Market Fd - Investor'
+-
+    fundType: 'Money Market Fund'
+    symbol: JGNXX
+    name: 'JPMorgan New York Municipal Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JGVXX
+    name: 'Janus Henderson Government Money Market Fund - D Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JHAXX
+    name: 'John Hancock Freedom 529 Money Market Portfolio Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: JHCXX
+    name: 'John Hancock Freedom 529 Money Market Portfolio Class C2'
+-
+    fundType: 'Money Market Fund'
+    symbol: JHFXX
+    name: 'John Hancock Freedom 529 Money Market Portfolio Class F'
+-
+    fundType: 'Money Market Fund'
+    symbol: JHMXX
+    name: 'John Hancock Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: JHOXX
+    name: 'John Hancock Var Ins Trust Money Market Tr Series I'
+-
+    fundType: 'Money Market Fund'
+    symbol: JIMXX
+    name: 'JPMorgan Prime Money Market Fund IM'
+-
+    fundType: 'Money Market Fund'
+    symbol: JINXX
+    name: 'JPMorgan Prime Money Market Fund - Institutional Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JLEXX
+    name: 'JPMorgan Liquid Assets Money Market Fund E Trade'
+-
+    fundType: 'Money Market Fund'
+    symbol: JMAXX
+    name: 'JPMorgan Municipal Money Market Fund Agency Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JMCXX
+    name: 'John Hancock Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: JMEXX
+    name: 'JPMorgan Municipal Money Market Fund E Trade'
+-
+    fundType: 'Money Market Fund'
+    symbol: JMMXX
+    name: 'John Hancock Freedom 529 Money Market Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNEXX
+    name: 'JPMorgan New York Municipal Money Market Fund E Trade'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNMXX
+    name: 'Janus Henderson Money Market Fund - D Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNPXX
+    name: 'JPMorgan New York Municipal Money Market Fund - Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNSXX
+    name: 'Edward Jones Money Market Fund - Investment Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNVXX
+    name: 'JPMorgan New York Municipal Money Market Fund Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: JNYXX
+    name: 'JPMorgan NY Municipal Money Market Reserve'
+-
+    fundType: 'Money Market Fund'
+    symbol: JOAXX
+    name: 'JPMorgan Institutional Tax Free Money Market Fund - Agency'
+-
+    fundType: 'Money Market Fund'
+    symbol: JOCXX
+    name: 'JPMorgan Institutional Tax Free Money Market Fund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: JOFXX
+    name: 'JPMorgan Institutional Tax Free Money Market Fund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: JOIXX
+    name: 'JPMorgan Institutional Tax Free Money Market Fund  - IM'
+-
+    fundType: 'Money Market Fund'
+    symbol: JONXX
+    name: 'JPMorgan New York Municipal Money Market Fund Agency Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JOYXX
+    name: 'JPMorgan California Municipal Money Market Fund Agency Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JPAXX
+    name: 'JPMorgan Prime Money Market Fund Academy Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JPCXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market Fund Academy Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JRSXX
+    name: 'Edward Jones Money Market Fund - Retirement Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: JRVXX
+    name: 'JPMorgan Prime Money Market Fund - Reserve Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JSMXX
+    name: 'JPMorgan 100% U.S. Treasury Securities Money Market Fund - IM'
+-
+    fundType: 'Money Market Fund'
+    symbol: JTCXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market Fund - Capital Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JTFXX
+    name: 'JPMorgan Tax Free Money Market Fund - Institutional Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JTSXX
+    name: 'JPMorgan 100% U.S. Treasury Securities Money Mkt Fd - Inst Shr Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: JUSXX
+    name: 'JPMorgan U.S. Government Money Market Fund - E* Trade Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: JXCXX
+    name: 'JPMorgan Prime Money Market Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: KMMXX
+    name: 'DWS Money Market Prime Series - DWS Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: LACXX
+    name: 'Lord Abbett U.S. Govt & Govt Sponsored Enterprises Money Mkt Fd Inc.,'
+-
+    fundType: 'Money Market Fund'
+    symbol: LAIXX
+    name: 'Western Asset Inst. U.S. Treasury Obligations Money Market Fd Investor Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: LAOXX
+    name: 'Western Asset Institutional U.S. Treasury Obligations Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: LAPXX
+    name: 'Invesco Liquid Assets Portfolio Instituitional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LAYXX
+    name: 'Lord Abbett U.S. Govt & Govt Sponsored Entpr MMkt Fd Cl I'
+-
+    fundType: 'Money Market Fund'
+    symbol: LCCXX
+    name: 'Lord Abbett U.S. Government Securities Money Market Fund, Inc. Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: LDIXX
+    name: 'Goldman Sachs Financial Square Government Fund - Loop Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LEAXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Investor A'
+-
+    fundType: 'Money Market Fund'
+    symbol: LEDXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Direct'
+-
+    fundType: 'Money Market Fund'
+    symbol: LEFXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LEIXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fund - Loop Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LGMXX
+    name: 'Western Asset Government Reserve Fund Class N'
+-
+    fundType: 'Money Market Fund'
+    symbol: LGRXX
+    name: 'Western Asset Institutional Government Reserves Investor CL'
+-
+    fundType: 'Money Market Fund'
+    symbol: LLRXX
+    name: 'Western Asset Insti Liquid Reserves Invs Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: LPCXX
+    name: 'STIT Liquid Assets Portfolio Corp Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: LPMXX
+    name: 'Liquid Assets Portfolio Cash Management Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LPPXX
+    name: 'Liquid Assets Portfolio Personal Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LPRXX
+    name: 'Liquid Assets Portfolio Reserve Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LPVXX
+    name: 'STIT  Liquid Assets Portfolio Private Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LRAXX
+    name: 'Western Asset Institutional Liquid Reserves Admin Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: LRCXX
+    name: 'Liquid Assets Portfolio Resource Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LRSXX
+    name: 'State Street Insti Liquid Reserves Fd Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: LTFXX
+    name: 'WA Select Tax Free Reserves Investor'
+-
+    fundType: 'Money Market Fund'
+    symbol: LTRXX
+    name: 'Western Asset Insti US Treasury Reserves Inv Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: LUIXX
+    name: 'Western Asset Inst. U.S. Treasury Obligations Money Market Fd Inst'
+-
+    fundType: 'Money Market Fund'
+    symbol: LWPXX
+    name: 'Western Asset Institutional Govt Money Market Fund Class L'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAAXX
+    name: 'Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: MACXX
+    name: 'MFS Cash Reserve Fund Share Class - 529A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MADXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Tax Exempt ptf Advisory Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAIXX
+    name: 'BMO Prime Money Market Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAMXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Adm Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MANXX
+    name: 'MSILF ESG Money Market Portfolio Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAOXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Treasury Portf Advisory Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MARXX
+    name: 'BMO Prime Money Market Fund Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAVXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Prime Ptf Advisory Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MAYXX
+    name: 'Morgan Stanley Institutional Liquidity Fds, Govt Portf Advisory Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCAXX
+    name: 'DWS Money Market Tr, DWS Money Market Series: Managed Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCBXX
+    name: 'BlackRock Summit Cash Reserves Fund - Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCCXX
+    name: 'MFS Series Trust I - MFS Cash Reserve Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCDXX
+    name: 'BlackRock Liquidity Funds MuniCash - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCHXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Cash Management Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCMXX
+    name: 'MFS Money Market Fund A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCPXX
+    name: 'BlackRock Liquidity Funds MuniCash - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCRXX
+    name: 'MFS Cash Reserve Fund Class B'
+-
+    fundType: 'Money Market Fund'
+    symbol: MCSXX
+    name: 'BlackRock Liquidity Funds MuniCash - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFCXX
+    name: 'Federated Hermes Municipal Obligations Fund Cap Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFDXX
+    name: 'BlackRock Institutional Funds MuniFund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFGXX
+    name: 'BlackRock Liquid Environmentally Aware Fund Mischler Financial Group Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFIXX
+    name: 'BMO Tax-Free Money Market Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFSXX
+    name: 'Federated Hermes Municipal Obligations Fund CS shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MFTXX
+    name: 'BlackRock Institutional Funds MuniFund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGAXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Administrative Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGMXX
+    name: 'JPMorgan U.S. Government Money Market Fund IM'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGNXX
+    name: 'BMO Government Money Market Fund - Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGOXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Portfolio Administrative Ptf'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGPXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Participant Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGSXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MGYXX
+    name: 'BMO Government Money Market Fund Y Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MHSXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Cash Management Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MIFXX
+    name: 'Nationwide Government Money Market Fund Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MIOXX
+    name: 'MSILF ESG Money Market Portfolio Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MIPXX
+    name: 'MainStay Money Market Fund SIMPLE Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MISXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Treasury Portf Instit Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJAXX
+    name: 'PGIM Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJCXX
+    name: 'PGIM Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJGXX
+    name: 'JPMorgan US Government Money Market Fund Morgan Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJLXX
+    name: 'JPMorgan Liquid Assets Money Market Fund Morgan Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJMXX
+    name: 'JPMorgan Municipal Money Market Fund Morgan Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJPXX
+    name: 'JPMorgan U. S. Treasury Plus money Market Fund IM'
+-
+    fundType: 'Money Market Fund'
+    symbol: MJTXX
+    name: 'JPMorgan US Treasury Plus Money Market Fund Morgan Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MKMXX
+    name: 'MainStay Funds Money Market Fund B'
+-
+    fundType: 'Money Market Fund'
+    symbol: MKSXX
+    name: 'MassMutual Premier Money Market Fund Class R5'
+-
+    fundType: 'Money Market Fund'
+    symbol: MKTXX
+    name: 'MainStay Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MLMXX
+    name: 'BNY Mellon Government Money Market Fund - Class M'
+-
+    fundType: 'Money Market Fund'
+    symbol: MLOXX
+    name: 'BNY Mellon Government Money Market Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMAXX
+    name: 'MainStay Funds Money Market Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMIXX
+    name: 'Allspring National Tax Free Money Market Class Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMLXX
+    name: 'Federated Hermes Institutional Money Market Management CAP Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMMXX
+    name: 'Federated Hermes Institutional Money Market Management EAG Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMNXX
+    name: 'MSILF ESG Money Market Portfolio Participant Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMPXX
+    name: 'Federated Hermes Institutional Money Market Management IS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMRXX
+    name: 'MSILF ESG Money Market Portfolio Institutional Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MMSXX
+    name: 'Federated Hermes Institutional Money Market Management SS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MNTXX
+    name: 'BNY Mellon National Municipal Money Market Fund  Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MNVXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Inv Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MODXX
+    name: 'Federated Hermes Municipal Obligations Fund CII shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MOFXX
+    name: 'Federated Hermes Municipal Obligations Fund Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MOIXX
+    name: 'Federated Hermes Municipal Obligations Fund IV shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MOMXX
+    name: 'BNY Mellon National Municipal Money Market Fund Class M Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MOSXX
+    name: 'Federated Hermes Municipal Obligations Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MOTXX
+    name: 'Federated Hermes Municipal Obligations Fund AS shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPCXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Portfolio Participant Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPEXX
+    name: 'Morgan Stanley Insti Liq Fds, Prime Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPFXX
+    name: 'Morgan Stanley Insti Liquidity Fds Prime Ptf Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPIXX
+    name: 'Government Money Market ProFund - Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPMXX
+    name: 'Morgan Stanley Insti Liq Fds, Prime Portfolio Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPNXX
+    name: 'Morgan Stanley Insti Liq Fds, Prime Portfolio Participant Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPPXX
+    name: 'MuniCash - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPRXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Participant Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPSXX
+    name: 'Government Money Market ProFund - Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPUXX
+    name: 'MSILF ESG Money Market Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MPVXX
+    name: 'Morgan Stanley Insti Liq Fds, Prime Portfolio Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MRBXX
+    name: 'MFS Cash Reserve Fund Share Class - 529B'
+-
+    fundType: 'Money Market Fund'
+    symbol: MRCXX
+    name: 'MFS Cash Reserve Fund Share Class - 529C'
+-
+    fundType: 'Money Market Fund'
+    symbol: MREXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Treasury Ptf (Csh Management Cl)'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSAXX
+    name: 'BlackRock Summit Cash Reserves Fund Cl A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSCXX
+    name: 'MainStay Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSDXX
+    name: 'Morgan Stanley Institutional Liquidity Funds - Government Portfolio - Select Cla'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSEXX
+    name: 'Morgan Stanley Institutional Liquidity Funds - Treasury Securities Portfolio - S'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSGXX
+    name: 'Morgan Stanley Inst Liquidity Fds, Gov Pft-Cash Mgmt Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSHXX
+    name: 'MSILF ESG Money Market Portfolio Cash Management Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSIXX
+    name: 'BlackRock Summit Cash Reserves Fund - Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSPXX
+    name: 'Morgan Stanley Inst Liquidity Fds, Prime Pft-Cash Mgmt Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSRXX
+    name: 'MFS Cash Reserve Fund A'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSSXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Serv Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSTXX
+    name: 'Morgan Stanley Institutional Liquidity Funds - Treasury Portfolio - Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSUXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MSVXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTCXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Portfolio Participant Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTFXX
+    name: 'BMO Tax Free Money Market Fund Class Y Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTMXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Tax-Exempt Ptf (Csh Management Cl)'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTNXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Portfolio Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTSXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTTXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Portfolio Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MTXXX
+    name: 'Morgan Stanley Insti Liquidity Fds Tax-Exempt Ptf Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MUCXX
+    name: 'BlackRock California Money Fund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: MUDXX
+    name: 'BlackRock California Money Fund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: MUIXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Insti Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MUNXX
+    name: 'BlackRock Liquidity Funds New York Money Fund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: MUSXX
+    name: 'MainStay U.S. Government Liquidity Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVAXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Advisory Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVIXX
+    name: 'Morgan Stanley Insti Liq Fds, Government Securities Investor Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVRXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Government Portf Insti Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVSXX
+    name: 'MSILF ESG Money Market Portfolio Advisory Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVVXX
+    name: 'Morgan Stanley Insti Liquidity Fds, Government Portf Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MVYXX
+    name: 'Morgan Stanley Insti Liq Fds, Treasury Sec Ptf Advisory Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXAXX
+    name: 'Morgan Stanley Insti Liq Fds, Tax-Exempt Portfolio Administrative Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXGXX
+    name: 'Great-West Government Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXIXX
+    name: 'Morgan Stanley Inst Liquidity Fds, Tax-Exempt Portfolio Investor Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXMXX
+    name: 'Great-West Government Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXPXX
+    name: 'Morgan Stanley Insti Liq Fds, Tax-Exempt Portfolio Participant Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MXSXX
+    name: 'Morgan Stanley Insti Liq Fds, Tax-Exempt Portfolio Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: MYMXX
+    name: 'AB Government Money Market Portfolio - AB'
+-
+    fundType: 'Money Market Fund'
+    symbol: NCGXX
+    name: 'North Capital Treasury Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: NISXX
+    name: 'Federated Hermes New York Municipal Cash Trust Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: NITXX
+    name: 'Northern Institutional Treasury Ptf Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: NOGXX
+    name: 'Northern Funds US Gorvernment Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: NOSXX
+    name: 'Northern Funds US Government Select Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: NTPXX
+    name: 'Treasury Portfolio Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: NTYXX
+    name: 'Northern Institutional Treasury Instruments Portfolio Shares Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: NWGXX
+    name: 'Allspring Government Money Market Fund Cl S'
+-
+    fundType: 'Money Market Fund'
+    symbol: NWMXX
+    name: 'Allspring National TF Money Market Cl A'
+-
+    fundType: 'Money Market Fund'
+    symbol: NWSXX
+    name: 'Nationwide Government Money Market Fund Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: NWTXX
+    name: 'Allspring 100% Treasury Money Market Fund Cl S'
+-
+    fundType: 'Money Market Fund'
+    symbol: NYCXX
+    name: 'Federated Hermes New York Municipal Cash Trust CII Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: OAKXX
+    name: 'MSILF ESG Money Market Portfolio CastleOak Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OGAXX
+    name: 'JPMorgan U.S.Government Money Market Agency'
+-
+    fundType: 'Money Market Fund'
+    symbol: OGSXX
+    name: 'JPMorgan U.S. Government Money Market Fund Premier'
+-
+    fundType: 'Money Market Fund'
+    symbol: OGVXX
+    name: 'JPMorgan U.S.Government Money Market Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: OMBXX
+    name: 'Invesco U.S. Government Money Portfolio Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPCXX
+    name: 'JPMorgan Liquiid Assets Money Market C'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPEXX
+    name: 'State Street ESG Liquid Reserves Fund - Opportunity Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPGXX
+    name: 'State Street Institutional U.S. Government Money Market Fund Opportunity Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPIXX
+    name: 'State Street Institutional Liquid Reserves Fund - Opportunity Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPRXX
+    name: 'State Street Institutional Treasury Money Market Fund Opportunity Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OPTXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund Opportunity Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: OTCXX
+    name: 'JPMorgan U.S. Treasury Plus Money Market C'
+-
+    fundType: 'Money Market Fund'
+    symbol: PBHXX
+    name: 'Payden Cash Reserves Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: PBMXX
+    name: 'PGIM Government Money Market Fund D (Direct)'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCCXX
+    name: 'Federated Hermes Prime Cash Obligations Fund Cap Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCDXX
+    name: 'Federated Hermes Prime Cash Obligations Fund CII shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCEXX
+    name: 'UBS Government Money Market Investments Class P'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCGXX
+    name: 'Pacific Capital U.S. Government Money Market Fund- Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCOXX
+    name: 'Federated Hermes Prime Cash Obligations Fund Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCSXX
+    name: 'Principal Fds, Inc. Money Market Fd A Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCUXX
+    name: 'Pacific Capital U.S. Government Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PCVXX
+    name: 'Federated Hermes Prime Cash Obligations Fund AVR Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PDDXX
+    name: 'Putnam Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: PFCXX
+    name: 'Putnam Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGBXX
+    name: 'Putnam Government Money Market Fund Class B'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGDXX
+    name: 'Putnam Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGEXX
+    name: 'Putnam Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGFXX
+    name: 'PIMCO Government Money Market Fund Cl M'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGKXX
+    name: 'Putnam Government Money Market Fund Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGLXX
+    name: 'Putnam Government Money Market Fund Class P'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGOXX
+    name: 'PIMCO Government Money Market Funds Administrative'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGPXX
+    name: 'PIMCO Government Money Market Fund Class I-2'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGRXX
+    name: 'Putnam Government Money Market Fund Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGVXX
+    name: 'Government Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PGYXX
+    name: 'PIMCO Government Money Market Funds Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: PIFXX
+    name: 'Plan Investment Fund Government Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: PIMXX
+    name: 'Plan Investment Fund Money Market Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: PINXX
+    name: 'BlackRock Money Market Portfolio - Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: PISXX
+    name: 'Allspring Treasury Plus Money Market Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: PIVXX
+    name: 'Allspring Treasury Plus Money Market Fd Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: PJLXX
+    name: 'JPMorgan Liquid Assets Money Market Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PJTXX
+    name: 'JPMorgan US Treasury Plus Money Market Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PMJXX
+    name: 'Principal Fds, Inc. Money Market Fd J Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: PMTXX
+    name: 'Pioneer U.S. Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: PMZXX
+    name: 'PGIM Government Money Market Fund Class Z'
+-
+    fundType: 'Money Market Fund'
+    symbol: PNIXX
+    name: 'BlackRock Money Market Portfolio - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: PNPXX
+    name: 'BlackRock Money Market Portfolio - Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: POIXX
+    name: 'Federated Hermes Institutional Prime Obligations Fund IS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: POPXX
+    name: 'Federated Hermes Institutional Prime Obligations Fund CAP Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRCXX
+    name: 'Federated Hermes Prime Cash Obligations Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRMXX
+    name: 'Federated Prime Private Liquidity Fund - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRRXX
+    name: 'T. Rowe Price Government Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRSXX
+    name: 'Federated Hermes Institutional Prime Obligations Fund SS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRTXX
+    name: 'T. Rowe Price U.S. Treasury Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRVXX
+    name: 'Allspring Treasury Plus Money Market Class Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRXXX
+    name: 'Pioneer U.S. Government Money Market Fund - Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: PRYXX
+    name: 'Pioneer U.S. Government Money Market Fund - Class Y'
+-
+    fundType: 'Money Market Fund'
+    symbol: PSBXX
+    name: 'BlackRock Liquid Federal Trust Fund - Penserra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PSLXX
+    name: 'BlackRock Liquid Environmentally Aware Fund - Penserra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTAXX
+    name: 'Federated Hermes Prime Cash Obligations Fund AS shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTBXX
+    name: 'Putnam Money Market Fund B Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTEXX
+    name: 'T. Rowe Price Tax-Exempt Money Fd'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTRXX
+    name: 'Federated Hermes Prime Cash Obligations Fund R shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTSXX
+    name: 'Federated Hermes Prime Cash Obligations Fund CS shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PTTXX
+    name: 'Federated Hermes Prime Cash Obligations Fund TR shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: PURXX
+    name: 'Putnam Money Market Fd Cl R Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: PVCXX
+    name: 'Federated Hermes Institutional Prime Value Obligations Fund CAP Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PVOXX
+    name: 'Federated Hermes Institutional Prime Value Obligations Fund IS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: PVSXX
+    name: 'Federated Hermes Institutional Prime Value Obligations Fund SS Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: RAAXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-1'
+-
+    fundType: 'Money Market Fund'
+    symbol: RABXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-2'
+-
+    fundType: 'Money Market Fund'
+    symbol: RACXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-3'
+-
+    fundType: 'Money Market Fund'
+    symbol: RADXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-4'
+-
+    fundType: 'Money Market Fund'
+    symbol: RAEXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-5'
+-
+    fundType: 'Money Market Fund'
+    symbol: RAFXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-6'
+-
+    fundType: 'Money Market Fund'
+    symbol: RAGXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-5E'
+-
+    fundType: 'Money Market Fund'
+    symbol: RBEXX
+    name: 'American Funds U.S. Government Money Market Fund Class R-2E'
+-
+    fundType: 'Money Market Fund'
+    symbol: RCCXX
+    name: 'Columbia Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: RGYXX
+    name: 'HSBC U.S. Government Money Market Fund Class Y Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: RJGXX
+    name: 'JPMorgan US Government Money Market Fund Reserve Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: RJTXX
+    name: 'JPMorgan 100% US Treasury Securities Money Market Fund Reserve Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: RMGXX
+    name: 'UBS RMA Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: RPGXX
+    name: 'Davis Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: RTJXX
+    name: 'JPMorgan Tax Free Money Market Fund Reserve Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: RVRXX
+    name: 'Columbia Government Money Market Fund Class R'
+-
+    fundType: 'Money Market Fund'
+    symbol: RYAXX
+    name: 'Rydex Fds, U.S. Government Money Market Fund A Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: RYCXX
+    name: 'Rydex Series US Govt Money Mkt Fd Cl C Shs'
+-
+    fundType: 'Money Market Fund'
+    symbol: RYFXX
+    name: 'Rydex U.S. Government money Market Fund Money Market Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: RYIXX
+    name: 'Rydex Srs Fd, U.S. Government Money Market Fund Investor 2 Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: RYMXX
+    name: 'Rydex Series Trust - US Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SAEXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SAHXX
+    name: 'State Street Institutional U.S. Government Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SAJXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SALXX
+    name: 'State Street Institutional U.S. Government Money Market Fund Administration Clas'
+-
+    fundType: 'Money Market Fund'
+    symbol: SAMXX
+    name: 'State Street Institutional U.S. Government Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCAXX
+    name: 'Schwab California Municipal Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCIXX
+    name: 'DWS Tax-Exempt Portfolio: DWS Tax-Exempt Cash Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCNXX
+    name: 'STIC Prime Portfolio Cash Management Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCOXX
+    name: 'Schwab Treasury Obligations Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCPXX
+    name: 'SEI Daily Income Trust Treasury II Fund Class F'
+-
+    fundType: 'Money Market Fund'
+    symbol: SCTXX
+    name: 'Schwab AMT Tax-Free Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SEGXX
+    name: 'UBS Select Government Institutional Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SEIXX
+    name: 'UBS Select ESG Prime Investor Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SELXX
+    name: 'UBS Select Prime Institutional Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SEOXX
+    name: 'SEI Daily Income Trust Government Fund Class F'
+-
+    fundType: 'Money Market Fund'
+    symbol: SETXX
+    name: 'UBS Select Treasury Institutional Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SFPXX
+    name: 'UBS Tax-Free Preferred Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SFRXX
+    name: 'UBS Tax-Free Investor Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGAXX
+    name: 'Saratoga U.S.Government Money Market  Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGEXX
+    name: 'UBS Select Government Investor Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGIXX
+    name: 'UBS Select ESG Prime Institutional Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGMXX
+    name: 'Saratoga U.S. Government Money Market Portfolio'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGPXX
+    name: 'UBS Select Government Preferred Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SGUXX
+    name: 'Schwab Government Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SHIXX
+    name: 'Allspring Heritage Money Fd Inst Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: SHMXX
+    name: 'Allspring Heritage Money Fund Admin Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: SJGXX
+    name: 'JPMorgan U.S. Government Money Market Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: SJMXX
+    name: 'JPMorgan Municipal Money Market Service'
+-
+    fundType: 'Money Market Fund'
+    symbol: SMGXX
+    name: 'Western Asset Government Reserve Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: SMTXX
+    name: 'Western Asset Government Reserves A2'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNAXX
+    name: 'Schwab Value Advantage Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNOXX
+    name: 'Schwab Treasury Obligations Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNRXX
+    name: 'Schwab Retirement Government Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNSXX
+    name: 'Schwab U.S. Treasury Money Fund Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNVXX
+    name: 'Schwab Government Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SNYXX
+    name: 'Schwab New York Municipal Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPAXX
+    name: 'Fidelity Government Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPEXX
+    name: 'STIC Prime Portfolio Personal Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPIXX
+    name: 'UBS Select Prime Investor Fd'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPPXX
+    name: 'UBS Select Prime Preferred Fd'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPRXX
+    name: 'Fidelity  Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPSXX
+    name: 'STIC Prime Portfolio Reserve Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SPVXX
+    name: 'STIT  STIC Prime Portfolio Private Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SRIXX
+    name: 'Invesco STIC Prime Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SRSXX
+    name: 'STIC Prime Portfolio Resource Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSCXX
+    name: 'STIT STIC Prime Portfolio Corp Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSHXX
+    name: 'State Street Institutional Liquid Reserves Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSIXX
+    name: 'State Street Institutional Liquid Reserves Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSJXX
+    name: 'State Street Institutional Treasury Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSKXX
+    name: 'State Street Institutional Treasury Money Market Fund Administration Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSNXX
+    name: 'State Street Institutional Treasury Money Market Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSOXX
+    name: 'State Street Institutional U.S. Government Money Market Fund Class G'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSPXX
+    name: 'UBS Select ESG Prime Preferred Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSQXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund Administration Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSVXX
+    name: 'State Street Insti Liquid Reserves Fund Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSYXX
+    name: 'State Street Institutional Liquid Reserves Fund Administration Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: SSZXX
+    name: 'State Street Institutional Liquid Reserves Fund Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: STFXX
+    name: 'UBS Tax-Free Institutional Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: STGXX
+    name: 'Allspring Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: STPXX
+    name: 'UBS Select Treasury Preferred Fd'
+-
+    fundType: 'Money Market Fund'
+    symbol: STRXX
+    name: 'UBS Select Treasury Investor Fd'
+-
+    fundType: 'Money Market Fund'
+    symbol: SUTXX
+    name: 'Schwab U.S. Treasury Money Fund Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SVUXX
+    name: 'Schwab Variable Share Price Money Fund - Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWGXX
+    name: 'Schwab Government Money Fund - Sweep Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWKXX
+    name: 'Schwab California Municipal Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWOXX
+    name: 'Schwab Municipal Money Fund - Ultra Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWSXX
+    name: 'Treasury Portfolio Siebert Williams Shank Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWTXX
+    name: 'Schwab Municipal Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWVXX
+    name: 'Schwab Value Advantage Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWWXX
+    name: 'Schwab AMT Tax-Free Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SWYXX
+    name: 'Schwab New York Municipal Money Fund - Investor Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: SZCXX
+    name: 'Saratoga Advantage Trust  U.S. Govt Money Market Portfolio Class C Sha'
+-
+    fundType: 'Money Market Fund'
+    symbol: TACXX
+    name: 'STIT Treasury Obligations Portfolio Corporate Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TAFXX
+    name: 'NTAM Treasury Assets Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: TAMXX
+    name: 'Transamerica Government Money Market Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: TAQXX
+    name: 'State Street Treasury Obligations Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: TBIXX
+    name: 'Federated Hermes Tax-Free Obligations Fund Wealth Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TBSXX
+    name: 'Federated Hermes Tax-Free Obligations Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TBVXX
+    name: 'Federated Hermes Tax-Free Obligations Fund AVR Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCDXX
+    name: 'BlackRock Liquidity Funds TempCash - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCGXX
+    name: 'SEI Daily Income Trust Government II Fund Class F'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCIXX
+    name: 'TIAA-CREF Money Market Fund Inst Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCPXX
+    name: 'TempCash - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCRXX
+    name: 'U.S. Government Money Market Fund - Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TCSXX
+    name: 'Federated Hermes Trust for U.S. Treasury Obligations CS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TDDXX
+    name: 'BlackRock Liquidity Funds FedFund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TDOXX
+    name: 'BlackRock Liquidity Funds TempFund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TERXX
+    name: 'T. Rowe Price Tax-Exempt Money Fund - I Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFCXX
+    name: 'BlackRock Liquidity Funds TempFund - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFDXX
+    name: 'BlackRock Liquidity Funds FedFund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFEXX
+    name: 'BlackRock Liquidity Funds T-Fund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFFXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFGXX
+    name: 'Transamerica Government Money Market Class R4'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFOXX
+    name: 'STIT Tax-Free Cash Reserve Corp Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: TFPXX
+    name: 'Invesco Tax-Free Cash Reserve Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TGRXX
+    name: 'Transamerica Government Money Market Class R2'
+-
+    fundType: 'Money Market Fund'
+    symbol: TGTXX
+    name: 'Transamerica Government Money Market Class I3'
+-
+    fundType: 'Money Market Fund'
+    symbol: TIEXX
+    name: 'TIAA-CREF Money Market Fd Retirement'
+-
+    fundType: 'Money Market Fund'
+    symbol: TILXX
+    name: 'State Street Institutional Liquid Reserves Fund - Trust Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TIMXX
+    name: 'US Government Money Market Fund RBC Insti Class 2'
+-
+    fundType: 'Money Market Fund'
+    symbol: TIRXX
+    name: 'TIAA-CREF Money Market Fund Retail Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TISXX
+    name: 'Federated Hermes U.S. Treasury Cash Reserves Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TLMXX
+    name: 'TIAA-CREF Life Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: TMCXX
+    name: 'BlackRock Liquidity Funds TempCash - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TMDXX
+    name: 'Maryland Tax-Free Money Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: TMHXX
+    name: 'TIAA-CREF Money Market Fund - Advisor'
+-
+    fundType: 'Money Market Fund'
+    symbol: TMPXX
+    name: 'BlackRock Liquidity Funds TempFund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TMWXX
+    name: 'TIAA-CREF Money Market Fund - Class W'
+-
+    fundType: 'Money Market Fund'
+    symbol: TOAXX
+    name: 'Federated Hermes Treasury Obligations Fund AS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TOCXX
+    name: 'Federated Hermes Treasury Obligations Fund Cap Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TOIXX
+    name: 'Federated Hermes Treasury Obligations Fund Insti Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TOSXX
+    name: 'Federated Hermes Treasury Obligations Fund Svc Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TOTXX
+    name: 'Federated Hermes Treasury Obligations Fund Trust Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPCXX
+    name: 'BlackRock Liquidity Funds TempCash - Capital'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPFXX
+    name: 'STIT Treasury Portfolio Private Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPIXX
+    name: 'State Street Insti Treasury Plus Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPLXX
+    name: 'State Street Institutional Treasury Plus Money Market  Fund - Trust Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPPXX
+    name: 'TIAA-CREF Money Market Fund Prem'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPSXX
+    name: 'State Street Insti Treasury Plus Money Market Fd Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPTXX
+    name: 'Treasury Trust Fund - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TPVXX
+    name: 'State Street Insti Treasury Plus Fd Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRCXX
+    name: 'STIT Tax-Free Cash Reserve Portfolio Private Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRGXX
+    name: 'U.S. Treasury Money Fund - I Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRIXX
+    name: 'State Street Insti Treasury Fd Insti Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRPXX
+    name: 'Invesco Treasury Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRVXX
+    name: 'State Street Institutional Treasury Fd Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TRZXX
+    name: 'T. Rowe Price U.S. Treasury Money Fund Z Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSCXX
+    name: 'T. Rowe Price Cash Reserves Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSDXX
+    name: 'BlackRock Liquidity Funds Federal Trust Fund - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSIXX
+    name: 'American Funds U.S. Government Money Market Fund - Class 529-T'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSLXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSPXX
+    name: 'STIT Treasury Obligations Portfolio Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TSTXX
+    name: 'BlackRock Liquidity Funds T-Fund - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTDXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Dollar'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTGXX
+    name: 'T. Rowe Price Government Money Fund - I Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTIXX
+    name: 'Federated Hermes Trust for U.S. Treasury Obligations CII Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTMXX
+    name: 'American Funds U.S. Government Money Market Fund - Class T'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTOXX
+    name: 'Federated Hermes Trust for U.S. Treasury Obligations IS Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TTTXX
+    name: 'BlackRock Liquidity Funds Treasury Trust - Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: TUGXX
+    name: 'U.S. Government Money Market Fund RBC Insti Cl 1'
+-
+    fundType: 'Money Market Fund'
+    symbol: TUIXX
+    name: 'US Government Money Market Fund RBC Investor Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TWNXX
+    name: 'Maryland Tax-Free Money Fund - I  Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TXMXX
+    name: 'DWS Tax-Exempt Portfolio: Tax-Exempt Cash Managed Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: TXPXX
+    name: 'STIT Treasury Obligations Portfolio Private Investment Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: TYCXX
+    name: 'STIT Treasury Portfolio Corp Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: TYSXX
+    name: 'State Street  Insti Treasury Money Market Fd Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: UATXX
+    name: 'USAA Mutual Fds Tr Treasury Money Market Trust'
+-
+    fundType: 'Money Market Fund'
+    symbol: UPIXX
+    name: 'UBS Prime Investor Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: UPPXX
+    name: 'UBS Prime Preferred Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: UPRXX
+    name: 'UBS Prime Reserves Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: USAXX
+    name: 'USAA Mutual Fds Tr Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: USEXX
+    name: 'USAA Mutual Fds Tr Tax Exempt Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: USGXX
+    name: 'American Funds U.S. Government Money Market Fund - Class F-3'
+-
+    fundType: 'Money Market Fund'
+    symbol: UTIXX
+    name: 'Federated Hermes U.S. Treasury Cash Reserves Institutional Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: UTSXX
+    name: 'United States Treasury Trust Class S'
+-
+    fundType: 'Money Market Fund'
+    symbol: VCAXX
+    name: 'JPMorgan California Municipal Money Market Morgan'
+-
+    fundType: 'Money Market Fund'
+    symbol: VCIXX
+    name: 'VALIC Company I Money Market I Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VCTXX
+    name: 'Vanguard California Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VETXX
+    name: 'Goldman Sachs Financial Square Government Fund - Drexel Hamilton Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VFIXX
+    name: 'JPMorgan Federal MM Agency Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VFPXX
+    name: 'JPMorgan Federal MM Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: VFVXX
+    name: 'JPMorgan  Federal MM Fund Morgan Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VHPXX
+    name: 'JPMorgan  Fds, 100% Treasury Securities Money Market Fund Premier Sh'
+-
+    fundType: 'Money Market Fund'
+    symbol: VMFXX
+    name: 'Vanguard Money Market Reserves Federal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VMIXX
+    name: 'JPMorgan Prime MM Fund Agency Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VMRXX
+    name: 'Vanguard Cash Reserves Federal Money Market Fund Admiral Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: VMSXX
+    name: 'Vanguard Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VMVXX
+    name: 'JPMorgan  Prime MM Fund Morgan Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VNYXX
+    name: 'JPMorgan  New York Municipal Money Market Morgan'
+-
+    fundType: 'Money Market Fund'
+    symbol: VPIXX
+    name: 'JPMorgan 100% U.S. Treasury Securities MM Fund  Agency Shr Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: VPMXX
+    name: 'JPMorgan Prime MM Fund Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: VSGXX
+    name: 'BlackRock Liquid Environmentally Aware Fund Bancroft Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: VSLXX
+    name: 'JPMorgan Securities Lending Money Market Fund - Agency SL'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTDXX
+    name: 'State Street Institutional Liquid Reserves Fund - Bancroft Capital Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTEXX
+    name: 'State Street ESG Liquid Reserves Fund - Bancroft Capital Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTGXX
+    name: 'State Street Institutional U.S. Government Money Market Fund - Bancroft Capital '
+-
+    fundType: 'Money Market Fund'
+    symbol: VTIXX
+    name: 'JPMorgan Tax Free MM Fund Agency Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTLXX
+    name: 'State Street Institutional Treasury Plus Money Market Fund - Bancroft Capital Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTMXX
+    name: 'JPMorgan Tax Free MM Fund Morgan Share Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTNXX
+    name: 'Goldman Sachs Prime Obligations Fund - Drexel Hamilton Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VTTXX
+    name: 'State Street Institutional Treasury Money Market Fund - Bancroft Capital Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: VUSXX
+    name: 'Vanguard Treasury Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VXPXX
+    name: 'JPMorgan Tax Free MM Fund - Premier Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: VYAXX
+    name: 'Voya Government Money Market Fund II Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: VYBXX
+    name: 'Voya Government Money Market Fund II Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: VYCXX
+    name: 'Voya Government Money Market Fund II Class I'
+-
+    fundType: 'Money Market Fund'
+    symbol: VYFXX
+    name: 'Vanguard New York Municipal Money Market Fund'
+-
+    fundType: 'Money Market Fund'
+    symbol: VYGXX
+    name: 'Voya Government Money Market Fund II Class W'
+-
+    fundType: 'Money Market Fund'
+    symbol: WAAXX
+    name: 'Western Asset Premier Institutional Liquid Reserves Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WABXX
+    name: 'Western Asset Premier Institutional Government Reserves Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WACXX
+    name: 'Western Asset Premier Institutional Government Reserves Premium Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WADXX
+    name: 'Western Asset Premier Institutional U.S. Treasury Reserves Capital Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WAEXX
+    name: 'Western Asset Premier Institutional U.S. Treasury Reserves Premium Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WAGXX
+    name: 'Wilmington U.S. Government Money Market Fund Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WCGXX
+    name: 'Northern U.S. Government Select Portfolio (Siebert Williams Shank Shares)'
+-
+    fundType: 'Money Market Fund'
+    symbol: WFFXX
+    name: 'Allspring Government Money Market Fund - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: WFGXX
+    name: 'Allspring Government Money Market Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: WFJXX
+    name: 'Allspring Heritage MMF - Select'
+-
+    fundType: 'Money Market Fund'
+    symbol: WFNXX
+    name: 'Allspring National Tax-Free Money Market Fund - Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WFTXX
+    name: 'Allspring 100% Treasury Money Market A Shares'
+-
+    fundType: 'Money Market Fund'
+    symbol: WGAXX
+    name: 'Allspring Government Money Market Fd Administrator Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: WGEXX
+    name: 'Wilmington U.S. Government Money Market Fund Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WGOXX
+    name: 'Wilmington US Government Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WGSXX
+    name: 'Wilmington U.S. Government Money Market Fund Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WHTXX
+    name: 'Allspring Heritage Money Market Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: WMNXX
+    name: 'Goldman Sachs Financial Square Government Fund - Seelaus Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WMOXX
+    name: 'Allspring Money Market Service Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: WMPXX
+    name: 'Allspring Money Market Fund - Premier Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WNTXX
+    name: 'Allspring National Tax-Free Money Market Fund Admin Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: WOMXX
+    name: 'Goldman Sachs Financial Square Treasury Instruments Fund - Seelaus Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WOTXX
+    name: 'Allspring 100% Treasury Money Mkt -Institutional'
+-
+    fundType: 'Money Market Fund'
+    symbol: WRAXX
+    name: 'Delaware Ivy Government Money Market Fund Class A'
+-
+    fundType: 'Money Market Fund'
+    symbol: WRCXX
+    name: 'Delaware Ivy Government Money Market Fund Class C'
+-
+    fundType: 'Money Market Fund'
+    symbol: WRNXX
+    name: 'Delaware Ivy Government Money Market Fund Class R6'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTAXX
+    name: 'Wilmington U.S. Treasury Money Market Fund Administrative Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTEXX
+    name: 'Wilmington U.S. Treasury Money Market Fund Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTIXX
+    name: 'Wilmington U.S. Treasury Money Market Fund Institutional Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTLXX
+    name: 'Allspring Treasury Plus Money Market Fund Select Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTPXX
+    name: 'Allspring Fd, Treasury Plus Money Market Admin'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTRXX
+    name: 'Allspring 100% Treasurey Money Market Admin Cl'
+-
+    fundType: 'Money Market Fund'
+    symbol: WTSXX
+    name: 'Wilmington U.S. Treasury Money Market Fund Service Class'
+-
+    fundType: 'Money Market Fund'
+    symbol: WUCXX
+    name: 'Allspring Municipal Cash Mgmt Money Market Admin Cl'

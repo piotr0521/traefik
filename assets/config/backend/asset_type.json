@@ -1,0 +1,107 @@
+{
+  "real-estate": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "hard-money-loan-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "real-estate-lp-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "real-estate-gp-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "public-non-traded-reit": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "private-equity": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "private-equity-gp-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "private-equity-lp-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "venture-capital": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "search-fund": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "secondaries": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "alternative-investment": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "litigation-financing": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "music-royalties": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "life-insurance-settlements": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "private-credit": {
+    "positionUrl": "/api/position/investments",
+    "positionEventTypes": ["DISTRIBUTION", "VALUE_UPDATE", "CONTRIBUTION", "REINVEST"]
+  },
+  "credit-card": {
+    "positionUrl": "/api/position/credit_cards",
+    "positionEventTypes": ["BALANCE_UPDATE"]
+  },
+  "cash-equivalent": {
+    "positionUrl": "/api/position/cash",
+    "positionEventTypes": ["VALUE_UPDATE", "INTEREST", "DEPOSIT", "WITHDRAW"]
+  },
+  "cash": {
+    "positionUrl": "/api/position/cash",
+    "positionEventTypes": ["VALUE_UPDATE", "INTEREST", "DEPOSIT", "WITHDRAW"]
+  },
+  "investment-property": {
+    "positionUrl": "/api/position/properties",
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "mortgage": {
+    "positionUrl": "/api/position/mortgages",
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "collectables": {
+    "positionUrl": "/api/position/collectables",
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "peer-to-peer-lending": {
+    "positionUrl": null,
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "cryptocurrency": {
+    "positionUrl": null,
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "public-equity": {
+    "positionUrl": "/api/position/securities",
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "certificate-of-deposit": {
+    "positionUrl": "/api/position/certificate_deposits",
+    "positionEventTypes": ["VALUE_UPDATE"]
+  },
+  "loan": { "positionUrl": null, "positionEventTypes": ["VALUE_UPDATE"] }
+}

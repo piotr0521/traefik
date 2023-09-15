@@ -1,0 +1,59 @@
+{% extends '@TalavUser/layout.html.twig' %}
+
+{% trans_default_domain 'TalavUserBundle' %}
+
+{% block talav_user_content %}
+    <div class="relative overflow-hidden">
+        <h1 class="font-medium text-3xl sm:text-4xl xl:text-5xl text-indigo-900 text-center leading-tight mb-6 sm:mb-12">Sign In</h1>
+
+        <form method="post" class="form">
+
+            {% if error %}
+                <div class="flex p-4 text-sm text-red-700 border border-red-400 rounded-lg bg-red-100" role="alert">
+                    <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+                    <span class="sr-only">Info</span>
+                    <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                </div>
+            {% endif %}
+
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+
+            <div class="form-row">
+                <label class="form-label" for="username">Email</label>
+                <input class="form-input" type="text" id="username" name="_username" value="{{ last_username }}" autocomplete="username" />
+            </div>
+
+            <div class="form-row">
+                <label class="form-label" for="password">{{ 'talav.security.login.password'|trans }}</label>
+                <input class="form-input" type="password" id="password" name="_password" autocomplete="current-password"/>
+            </div>
+
+            <div class="grid grid-flow-col justify-between">
+                <div class="grid grid-flow-col items-center">
+                    <input type="checkbox" id="remember_me" name="_remember_me" value="on"
+                    class="border-slate-300 rounded-md w-6 h-6"/>
+                    <label for="remember_me" class="text-sm sm:text-base text-indigo-900 ml-4">{{ 'talav.security.login.remember_me'|trans }}</label>
+                </div>
+
+                <a href="{{ path('talav_user_reset_request') }}" class="text-sm sm:text-base text-blue-700 hover:underline">
+                    {{ 'talav.reset.layout.forget_password'|trans }}
+                </a>
+            </div>
+
+            <div class="text-center mt-7">
+                <button class="btn btn-primary text-sm sm:text-base " name="submit" type="submit">
+                    Sign in
+                </button>
+            </div>
+
+            <div class="text-center text-sm sm:text-base">
+                <span class="text-indigo-900">Don’t have an account?</span>
+                <a href="{{ path('talav_user_register') }}" class="text-blue-700 hover:underline">
+                    Click here to sign up
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+{% endblock talav_user_content %}

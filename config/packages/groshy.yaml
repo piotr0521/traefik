@@ -1,0 +1,247 @@
+groshy:
+  resources:
+    tag_group:
+      classes:
+        model: Groshy\Entity\TagGroup
+    tag:
+      classes:
+        model: Groshy\Entity\Tag
+    sponsor:
+      classes:
+        model: Groshy\Entity\Sponsor
+    asset:
+      classes:
+        model: Groshy\Entity\Asset
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetRepository
+    asset_investment:
+      classes:
+        model: Groshy\Entity\AssetInvestment
+    asset_cash:
+      classes:
+        model: Groshy\Entity\AssetCash
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetCashRepository
+    asset_property:
+      classes:
+        model: Groshy\Entity\AssetProperty
+    asset_certificate_deposit:
+      classes:
+        model: Groshy\Entity\AssetCertificateDeposit
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetCertificateDepositRepository
+    asset_collectable:
+      classes:
+        model: Groshy\Entity\AssetCollectable
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetCollectableRepository
+    asset_security:
+      classes:
+        model: Groshy\Entity\AssetSecurity
+    asset_crypto:
+      classes:
+        model: Groshy\Entity\AssetCrypto
+    asset_business:
+      classes:
+        model: Groshy\Entity\AssetBusiness
+    liability_credit_card:
+      classes:
+        model: Groshy\Entity\LiabilityCreditCard
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\LiabilityCreditCardRepository
+    liability_mortgage:
+      classes:
+        model: Groshy\Entity\LiabilityMortgage
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\LiabilityMortgageRepository
+    liability_loan:
+      classes:
+        model: Groshy\Entity\LiabilityLoan
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\LiabilityLoanRepository
+    asset_type:
+      classes:
+        model: Groshy\Entity\AssetType
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetTypeRepository
+    asset_security_price:
+      classes:
+        model: Groshy\Entity\AssetSecurityPrice
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetSecurityPriceRepository
+    asset_crypto_price:
+      classes:
+        model: Groshy\Entity\AssetCryptoPrice
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AssetCryptoPriceRepository
+    position:
+      classes:
+        model: Groshy\Entity\Position
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_cash:
+      classes:
+        model: Groshy\Entity\PositionCash
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_investment:
+      classes:
+        model: Groshy\Entity\PositionInvestment
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_credit_card:
+      classes:
+        model: Groshy\Entity\PositionCreditCard
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_property:
+      classes:
+        model: Groshy\Entity\PositionProperty
+    position_certificate_deposit:
+      classes:
+        model: Groshy\Entity\PositionCertificateDeposit
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_collectable:
+      classes:
+        model: Groshy\Entity\PositionCollectable
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_business:
+      classes:
+        model: Groshy\Entity\PositionBusiness
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_mortgage:
+      classes:
+        model: Groshy\Entity\PositionMortgage
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_loan:
+      classes:
+        model: Groshy\Entity\PositionLoan
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_security:
+      classes:
+        model: Groshy\Entity\PositionSecurity
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_crypto:
+      classes:
+        model: Groshy\Entity\PositionCrypto
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionRepository
+    position_event:
+      classes:
+        model: Groshy\Entity\PositionEvent
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionEventRepository
+    position_value:
+      classes:
+        model: Groshy\Entity\PositionValue
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\PositionValueRepository
+        manager: Groshy\Application\Manager\PositionValueManager
+    transaction:
+      classes:
+        model: Groshy\Entity\Transaction
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\TransactionRepository
+        manager: Groshy\Application\Manager\TransactionManager
+    institution:
+      classes:
+        model: Groshy\Entity\Institution
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\InstitutionRepository
+    plaid_connection:
+      classes:
+        model: Groshy\Entity\PlaidConnection
+    account:
+      classes:
+        model: Groshy\Entity\Account
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AccountRepository
+        manager: Groshy\Application\Manager\AccountManager
+    account_type:
+      classes:
+        model: Groshy\Entity\AccountType
+        repository: Groshy\Infrastructure\Persistence\Doctrine\Repository\AccountTypeRepository
+    account_holder:
+      classes:
+        model: Groshy\Entity\AccountHolder
+    asset_type_account_type:
+      classes:
+        model: Groshy\Entity\AssetTypeAccountType
+    product:
+      classes:
+        model: Groshy\Entity\Product
+    price:
+      classes:
+        model: Groshy\Entity\Price
+    customer:
+      classes:
+        model: Groshy\Entity\Customer
+    subscription:
+      classes:
+        model: Groshy\Entity\Subscription
+  assets:
+    configs:
+      private_equity:
+        asset_class: Groshy\Entity\AssetInvestment
+        position_class: Groshy\Entity\PositionInvestment
+        position_event_types:
+          - DISTRIBUTION
+          - VALUE_UPDATE
+          - CONTRIBUTION
+          - REINVEST
+          - COMPLETE
+      cash:
+        asset_class: Groshy\Entity\AssetCash
+        position_class: Groshy\Entity\PositionCash
+        position_event_types:
+          - VALUE_UPDATE
+          - INTEREST
+          - DEPOSIT
+          - WITHDRAW
+      credit_card:
+        asset_class: Groshy\Entity\LiabilityCreditCard
+        position_class: Groshy\Entity\PositionCreditCard
+        position_event_types:
+          - BALANCE_UPDATE
+      investment-property:
+        asset_class: Groshy\Entity\AssetProperty
+        position_class: Groshy\Entity\PositionProperty
+        position_event_types:
+          - VALUE_UPDATE
+      mortgage:
+        asset_class: Groshy\Entity\LiabilityMortgage
+        position_class: Groshy\Entity\PositionMortgage
+        position_event_types:
+          - VALUE_UPDATE
+      collectables:
+        asset_class: Groshy\Entity\AssetCollectable
+        position_class: Groshy\Entity\PositionCollectable
+        position_event_types:
+          - VALUE_UPDATE
+      peer_to_peer_lending:
+        position_event_types:
+          - VALUE_UPDATE
+      cryptocurrency:
+        position_event_types:
+          - VALUE_UPDATE
+      public_equity:
+        asset_class: Groshy\Entity\AssetSecurity
+        position_class: Groshy\Entity\PositionSecurity
+        position_event_types:
+          - VALUE_UPDATE
+      certificate_of_deposit:
+        asset_class: Groshy\Entity\AssetCertificateDeposit
+        position_class: Groshy\Entity\PositionCertificateDeposit
+        position_event_types:
+          - VALUE_UPDATE
+      loan:
+        position_event_types:
+          - VALUE_UPDATE
+    types:
+      real-estate: private_equity
+      hard-money-loan-fund: private_equity
+      real-estate-lp-fund: private_equity
+      real-estate-gp-fund: private_equity
+      public-non-traded-reit: private_equity
+      private-equity: private_equity
+      private-equity-gp-fund: private_equity
+      private-equity-lp-fund: private_equity
+      venture-capital: private_equity
+      search-fund: private_equity
+      secondaries: private_equity
+      alternative-investment: private_equity
+      litigation-financing: private_equity
+      music-royalties: private_equity
+      life-insurance-settlements: private_equity
+      private-credit: private_equity
+      credit-card: credit_card
+      cash-equivalent: cash
+      cash: cash
+      investment-property: investment_property
+      mortgage: mortgage
+      collectables: collectables
+      peer-to-peer-lending: peer_to_peer_lending
+      cryptocurrency: cryptocurrency
+      public-equity: public_equity
+      certificate-of-deposit: certificate_of_deposit
+      loan: loan

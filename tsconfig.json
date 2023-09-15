@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "importsNotUsedAsValues": "error",
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "preserveValueImports": true,
+    "isolatedModules": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./assets/js/*"] }
+    // "types": ["webpack-env"],
+    // "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "assets/js/**/*.ts",
+    "assets/js/**/*.tsx",
+    "assets/js/**/*.js",
+    "assets/js/**/*.vue"
+  ],
+  "exclude": ["node_modules"]
+}

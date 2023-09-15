@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include 'common/header.html.twig' %}
+    <meta name="user-id" content="{{ app.user.id }}">
+    <title>{% block title %}Single Page Application entry point{% endblock %}</title>
+</head>
+<body class="min-h-screen grid">
+{% block content %}
+    <div id="app"></div>
+
+    <footer class="bg-blue-50 px-7 py-3 self-end">
+        <div class="flex justify-between text-sm text-indigo-900">
+            <span>&#169; {{ 'now' | date('Y') }} Groshy.io. All rights reserved</span>
+
+            <div class="flex divide-x divide-blue-200">
+                <a class="hover:underline inline-block px-5" href="{{ path('groshy_frontend_content_policy') }}">Privacy Policy</a>
+
+                <a class="hover:underline inline-block px-5" href="{{ path('groshy_frontend_content_terms') }}">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>
+
+

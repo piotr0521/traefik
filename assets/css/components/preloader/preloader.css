@@ -1,0 +1,25 @@
+.loader {
+  @apply w-full h-2 relative overflow-hidden;
+}
+
+.loader:before {
+  content: "";
+  @apply block h-full bg-blue-700 absolute top-0 left-0;
+  animation: loader 1.4s infinite ease-in-out;
+}
+
+@keyframes loader {
+  0% {
+    transform: translateX(-110%);
+    left: 0;
+    width: 10%;
+  }
+  50% {
+    width: 75%;
+  }
+  100% {
+    transform: translateX(10%);
+    left: 100%;
+    width: 10%;
+  }
+}

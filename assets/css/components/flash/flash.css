@@ -1,0 +1,7 @@
+.flash-success {
+  @apply text-green-500 text-center mb-5;
+}
+
+.flash-error {
+  @apply text-red-500 text-center mb-5;
+}

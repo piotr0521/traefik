@@ -1,0 +1,12 @@
+@import "./form/base.css";
+@import "./buttons/button.css";
+@import "./flash/flash.css";
+@import "./card/card.css";
+@import "./tables/tables.css";
+@import "./pagination/base.css";
+@import "./preloader/preloader.css";
+@import "./text/base.css";
+@import "./carousel/carousel.css";
+@import "./header/header.css";
+@import "./accordion/accordion.css";
+@import "./toaster/toaster.css";

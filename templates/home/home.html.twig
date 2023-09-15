@@ -1,0 +1,166 @@
+{% extends 'common/base.html.twig' %}
+
+{% block body %}
+    <section class="bg-bodyBg flex-1 flex items-center relative">
+        <div class="container mx-auto px-4 relative">
+            <img class="absolute top-12 left-7 xl:-left-12 z-0 hidden sm:block" src="{{ asset('images/form/bg-form-right.svg') }}" alt="ornament">
+            <img class="absolute top-1/4 right-7 xl:-right-6 z-0 hidden sm:block" src="{{ asset('images/form/bg-form-left.svg') }}" alt="ornament">
+
+            <div class="flex flex-col-reverse sm:flex-col items-center flex-wrap lg:flex-nowrap pt-20 md:py-24 xl:py-32">
+                <div class="md:w-10/12 xl:w-3/5 text-indigo-900 m-auto text-center mb-14 lg:mb-16 xl:mb-32" data-aos="fade-up" data-aos-delay="200">
+                    <h1 class="text-4xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8">Modern way to manage your assets and investments</h1>
+                    <p class="text-md md:text-xl font-light mb-10">Managing investments can be complicated. Tracker is a platform that allows you to be in full control of all your assets and investments </p>
+                    <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center px-10 text-md">Sign up now</a>
+                </div>
+                <div class="relative md:w-11/12 xl:w-3/4 pb-16">
+                    <div class="relative">
+                        <img class="pr-4 relative z-10" data-aos="fade-up" data-aos-delay="400" src="{{ asset('images/homepage/hero-desktop.png') }}" alt="hero desktop">
+                        <img class="absolute bottom-28 -left-8 z-0 hidden sm:block" src="{{ asset('images/form/bg-form-right.svg') }}" alt="ornament">
+                    </div>
+                    <img class="absolute top-8 sm:top-32 right-0 sm:-right-4 z-10 w-28 sm:w-44 lg:w-64" data-aos="fade-up" data-aos-delay="500" src="{{ asset('images/homepage/hero-mobile.png') }}" alt="hero mobile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-bodyBg pt-16 sm:pt-24 pb-12 sm:pb-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col">
+                <div class="md:w-10/12 xl:w-3/5 text-indigo-900 m-auto text-center mb-10 md:px-12">
+                    <h2 class="text-3xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8" data-aos="fade-up" data-aos-delay="100">What people are saying about Groshy</h2>
+                    <div class="flex justify-center flex-col md:flex-row" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center bg-blue-50 text-indigo-900 p-1.5 rounded-full font-medium mx-2 mb-3 sm:mb-0">
+                            <div class="flex items-center py-1.5 px-2.5 rounded-full" style="background: #F2C94C;">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none"><path fill="#312E81" d="m6.667 10.347 4.12 2.486-1.094-4.686 3.64-3.154-4.793-.406L6.667.167l-1.874 4.42L0 4.993l3.64 3.154-1.093 4.686 4.12-2.486Z"/></svg>
+                                </span>
+                                <span class="text-sm pl-1">4.8</span>
+                            </div>
+                            <p class="text-sm px-5 uppercase w-full sm:w-auto">on the app store</p>
+                        </div>
+                        <div class="flex items-center bg-blue-50 text-indigo-900 p-1.5 rounded-full font-medium mx-2">
+                            <div class="flex items-center py-1.5 px-2.5 rounded-full" style="background: #F2C94C;">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none"><path fill="currentColor" d="m6.667 10.347 4.12 2.486-1.094-4.686 3.64-3.154-4.793-.406L6.667.167l-1.874 4.42L0 4.993l3.64 3.154-1.093 4.686 4.12-2.486Z"/></svg>
+                                </span>
+                                <span class="text-sm pl-1">4.8</span>
+                            </div>
+                            <p class="text-sm px-5 uppercase w-full sm:w-auto">on google play</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper review-carousel w-full" data-aos="fade-up" data-aos-delay="250">
+                    <div class="swiper-wrapper">
+                        {% for i in 0..6 %}
+                            <div class="swiper-slide bg-white px-6 pt-5 pb-12 rounded-lg border border-blue-50 shadow-cardReview hover:cursor-grab">
+                                <div class="flex items-center justify-between  mb-5">
+                                    <h4 class="text-indigo-900 font-medium">Joshua W {{ i }}.</h4>
+                                    <div class="flex" style="color: #F2C94C;">
+                                        {% for i in 0..4 %}
+                                            <span class="ml-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none"><path fill="currentColor" d="m6.667 10.347 4.12 2.486-1.094-4.686 3.64-3.154-4.793-.406L6.667.167l-1.874 4.42L0 4.993l3.64 3.154-1.093 4.686 4.12-2.486Z"/></svg>
+                                            </span>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="text-slate-900 font-thin">Sapien suscipit quis odio sem. Arcu vitae nunc massa lacus risus sodales eget. In pharetra velit pharetra cursus.</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 xl:pt-28 xl:pb-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col-reverse lg:flex-row">
+                <div class="md:w-10/12 lg:w-1/2 text-indigo-900 mx-auto lg:m-auto lg:pr-20 text-center lg:text-left">
+                    <h2 class="text-3xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8" data-aos="fade-up" data-aos-delay="100">Focus on your money, not on advertisements</h2>
+                    <p class="text-md md:text-xl font-light mb-10" data-aos="fade-up" data-aos-delay="200">
+                        At Monarch, we're committed to building the best product to improve your financial life. That means an uncluttered experience with no distracting ads, and we'll never sell your financial data to third parties.
+                    </p>
+                    <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center px-10 text-md" data-aos="fade-up" data-aos-delay="250">Sign up now</a>
+                </div>
+                <div class="w-10/12 lg:w-1/2 relative mx-auto mb-12 lg:mb-auto">
+                    <img class="lg:pl-4 mx-auto lg:ml-auto relative z-10" src="{{ asset('images/homepage/home-focus.png') }}" alt="Focus on your money, not on advertisements" data-aos="fade-up">
+                    <img class="absolute bottom-0 md:-left-12 xl:left-20 z-0 h-16 md:h-auto" src="{{ asset('images/form/bg-form-right.svg') }}"   alt="ornament">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white pt-8 pb-12 lg:py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <div class="w-10/12 lg:w-1/2 mx-auto lg:ml-auto">
+                    <div class="relative">
+                        <img class="lg:pl-4 mx-auto relative z-10" src="{{ asset('images/homepage/home-security.png') }}" alt="Security you can trust" data-aos="fade-up">
+                        <img class="absolute bottom-28 left-0 md:left-16 lg:left-2 xl:left-16 z-0 w-16 md:w-auto" src="{{ asset('images/form/bg-form-left.svg') }}"   alt="ornament">
+                    </div>
+                </div>
+                <div class="md:w-10/12 lg:w-1/2 text-indigo-900 m-auto text-center lg:text-left lg:pl-20">
+                    <h2 class="text-3xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8" data-aos="fade-up" data-aos-delay="100">Security you can trust</h2>
+                    <p class="text-md md:text-xl font-light mb-10" data-aos="fade-up" data-aos-delay="200">
+                        Monarch protects your data with bank-level security. Your login details are never stored and access to your accounts is limited to read-only, we cannot move your money.
+                    </p>
+                    <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center px-10 text-md" data-aos="fade-up" data-aos-delay="250">Sign up now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 xl:py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col-reverse lg:flex-row">
+                <div class="md:w-10/12 lg:w-1/2 text-indigo-900 m-auto text-center lg:text-left lg:pr-20">
+                    <h2 class="text-3xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8" data-aos="fade-up" data-aos-delay="100">All of your financial accounts in one place</h2>
+                    <p class="text-md md:text-xl font-light mb-10"  data-aos="fade-up" data-aos-delay="200">
+                        Monarch syncs with over 11,000 banks and institutions, giving you a complete and up-to-date view of your entire financial picture.
+                    </p>
+                    <div class="inline-flex flex-col md:flex-row items-center gap-x-10" data-aos="fade-up" data-aos-delay="250">
+                        <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center px-10 text-md mb-5 sm:mb-0">Sign up now</a>
+                        <a href="#" class="btn btn-link ">
+                            Learn more
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="12" fill="none"><path fill="currentColor" d="M18.354 4.854a.5.5 0 0 0 0-.708L15.172.964a.5.5 0 1 0-.708.708L17.293 4.5l-2.829 2.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 5h18V4H0v1Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-10/12 lg:w-1/2 relative mx-auto lg:ml-auto">
+                    <img class="lg:pl-4 mx-auto relative z-10" src="{{ asset('images/homepage/home-assets.png') }}" alt="All of your financial accounts in one place" data-aos="fade-up">
+                    <img class="absolute top-0 md:left-20 z-0 h-16 md:h-auto" src="{{ asset('images/form/bg-form-right.svg') }}" alt="ornament">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white pt-8 pb-16 sm:pt-16 sm:pb-24 lg:pt-16 lg:pb-28">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <div class="w-10/12 lg:w-1/2 mx-auto lg:ml-auto mb-10 lg:mb-0">
+                    <div class="relative">
+                        <img class="lg:pl-4 mx-auto relative z-10" src="{{ asset('images/homepage/home-oneplace.png') }}" alt="All of your investment holdings in one place" data-aos="fade-up">
+                        <img class="absolute -bottom-10 -left-2 md:left-7 z-0 w-16 md:w-auto" src="{{ asset('images/form/bg-form-left.svg') }}" alt="ornament">
+                    </div>
+                </div>
+                <div class="md:w-10/12 lg:w-1/2 text-indigo-900 m-auto text-center lg:text-left lg:pl-20">
+                    <h2 class="text-3xl md:text-5xl font-semibold mx-auto md:mx-0 mb-8" data-aos="fade-up" data-aos-delay="100">All of your investment holdings in one place</h2>
+                    <p class="text-md md:text-xl font-light mb-10" data-aos="fade-up" data-aos-delay="200">
+                        Know exactly what you're invested in and how your portfolio is performing by syncing all of your investment holdings into one view. View your historical performance and allocation.
+                    </p>
+                    <div class="inline-flex flex-col md:flex-row items-center gap-x-10" data-aos="fade-up" data-aos-delay="250">
+                        <a href="{{ path('talav_user_register') }}" class="btn btn-primary inline-flex items-center px-10 text-md mb-5 sm:mb-0">Sign up now</a>
+                        <a href="#" class="btn btn-link">
+                            Learn more
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="12" fill="none"><path fill="currentColor" d="M18.354 4.854a.5.5 0 0 0 0-.708L15.172.964a.5.5 0 1 0-.708.708L17.293 4.5l-2.829 2.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 5h18V4H0v1Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

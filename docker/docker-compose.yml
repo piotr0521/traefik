@@ -1,0 +1,100 @@
+version: '3.7'
+services:
+  groshy_proxy:
+    image: "traefik:v2.6"
+    container_name: groshy_proxy
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.mailhog.address=:8025"
+      - "--entrypoints.pma.address=:8026"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    networks:
+      - backend
+
+  groshy_nginx:
+    container_name: groshy_nginx
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    networks:
+      - backend
+    restart: on-failure
+    volumes:
+      - .:/var/www/project
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nginx.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.nginx.entrypoints=web"
+      - "traefik.http.routers.nginx.priority=1"
+
+  groshy_php:
+    container_name: groshy_php
+    build:
+      context: .
+      dockerfile: docker/php-fpm/Dockerfile
+    volumes:
+      - .:/var/www/project:rw
+    networks:
+      - backend
+    restart: on-failure
+    environment:
+      - XDEBUG_ENABLE=on
+
+  groshy_mariadb:
+    container_name: groshy_mariadb
+    image: mariadb:latest
+    restart: always
+    volumes:
+      - ./docker/provision/mariadb/init:/docker-entrypoint-initdb.d
+    environment:
+      MARIADB_ROOT_PASSWORD: root_password
+      MARIADB_USER: groshy
+      MARIADB_PASSWORD: groshy
+    networks:
+      - backend
+
+  groshy_pma:
+    container_name: groshy_pma
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: groshy_mariadb
+      PMA_USER: groshy
+      PMA_PASSWORD: groshy
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    networks:
+      - backend
+    ports:
+      - 8026:80
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pma.rule=Host(`pma.localhost`)"
+      - "traefik.http.routers.pma.entrypoints=web"
+      - "traefik.http.routers.pma.priority=10"
+
+  groshy_mailhog:
+    container_name: groshy_mailhog
+    image: mailhog/mailhog
+    networks:
+      - backend
+    ports:
+      - 9201:8025
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.mailhog.rule=Host(`mailhog.localhost`)"
+      - "traefik.http.routers.mailhog.entrypoints=mailhog"
+      - "traefik.http.routers.mailhog.priority=11"
+
+volumes:
+  mariadb:
+    driver: local
+
+networks:
+  backend:

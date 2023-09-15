@@ -1,0 +1,156 @@
+{
+  "real-estate": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary"
+  },
+  "hard-money-loan-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "real-estate-lp-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "real-estate-gp-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "public-non-traded-reit": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "private-equity": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary"
+  },
+  "private-equity-gp-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "private-equity-lp-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "venture-capital": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "search-fund": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "secondaries": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary",
+    "position": "InvestmentPosition"
+  },
+  "alternative-investment": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary"
+  },
+  "litigation-financing": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary"
+  },
+  "music-royalties": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary"
+  },
+  "life-insurance-settlements": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary"
+  },
+  "private-credit": {
+    "accountComponent": "InvestmentAccount",
+    "summaryComponent": "InvestmentSummary",
+    "positionSummaryComponent": "InvestmentSummary"
+  },
+  "credit-card": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "CreditCardSummary",
+    "positionSummaryComponent": "CreditCardSummary",
+    "position": "CreditCardPosition"
+  },
+  "cash": {
+    "accountComponent": "CashAccount",
+    "summaryComponent": "CashSummary",
+    "positionSummaryComponent": "CashSummary",
+    "position": "CashPosition"
+  },
+  "cash-equivalent": {
+    "accountComponent": "CashAccount",
+    "summaryComponent": "CashSummary",
+    "positionSummaryComponent": "DefaultSummary"
+  },
+  "investment-property": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "PropertyDetailsPosition"
+  },
+  "mortgage": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "MortgagePosition"
+  },
+  "collectables": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "CollectablesPosition"
+  },
+  "peer-to-peer-lending": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary"
+  },
+  "cryptocurrency": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "CryptoCurrencyPosition"
+  },
+  "public-equity": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "PublicSecurityPosition"
+  },
+  "certificate-of-deposit": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "CertificateDepositPosition"
+  },
+  "loan": {
+    "accountComponent": "DefaultAccount",
+    "summaryComponent": "DefaultSummary",
+    "positionSummaryComponent": "DefaultSummary",
+    "position": "LoanPosition"
+  },
+  "private-business": {
+    "position": "BusinessPosition"
+  }
+}
